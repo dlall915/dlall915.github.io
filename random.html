@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset = "UTF-8" />
+	<title>Under Construction!</title>
+</head>
+<body>
+
+<h1>Under Construction!</h1>
+
+<img id="dancingBanana" src="images/dancing_banana.jpg" alt="image of a dancing banana" width="495" height="525">
+
+<h2>Stop the rectangle in the box.</h2>
+
+    <canvas id="myCanvas" width="800" height="200"></canvas>
+    <script>
+      window.requestAnimFrame = (function(callback) {
+        return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame ||
+        function(callback) {
+          window.setTimeout(callback, 1000 / 60);
+        };
+      })();
+
+      function drawBox(myBox, context) {
+        context.beginPath();
+        context.rect(myBox.x, myBox.y, myBox.width, myBox.height);
+        context.fillStyle = '#FFFFFF';
+        context.fill();
+        context.lineWidth = myBox.borderWidth;
+        context.strokeStyle = 'black';
+        context.stroke();
+      }
+
+      function drawRect(myRectangle, context) {
+        context.beginPath();
+        context.rect(myRectangle.x, myRectangle.y, myRectangle.width, myRectangle.height);
+        context.fillStyle = '#8ED6FF';
+        context.fill();
+        context.lineWidth = myRectangle.borderWidth;
+        context.strokeStyle = 'black';
+        context.stroke();
+      }
+
+      function animate(lastTime, myRectangle, runAnimation, canvas, context) {
+        if(runAnimation.value) {
+          // update
+          var time = (new Date()).getTime();
+          var timeDiff = time - lastTime;
+
+          // pixels / second
+          var linearSpeed = 100;
+          var linearDistEachFrame = linearSpeed * timeDiff / 1000;
+          var currentX = myRectangle.x;
+
+          if (currentX < canvas.width - myRectangle.width - myRectangle.borderWidth - 5) {
+            var newX = currentX + linearDistEachFrame;
+            myRectangle.x = newX;
+          }
+
+          // clear
+          context.clearRect(0, 0, canvas.width, canvas.height);
+
+          // draw
+          drawBox(myBox, context);
+          drawRect(myRectangle, context);
+
+          // request new frame
+          requestAnimFrame(function() {
+            animate(time, myRectangle, runAnimation, canvas, context);
+          });
+        }
+      }
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      var myRectangle = {
+        x: 2,
+        y: 75,
+        width: 100,
+        height: 50,
+        borderWidth: 1
+      };
+
+      var myBox = {
+        x: 400,
+        y: 70,
+        width: 150,
+        height: 60,
+        borderWidth: 2
+      };
+
+      /*
+       * define the runAnimation boolean as an object
+       * so that it can be modified by reference
+       */
+      var runAnimation = {
+        value: false
+      };
+
+      // add click listener to canvas
+      document.getElementById('myCanvas').addEventListener('click', function() {
+        // flip flag
+        runAnimation.value = !runAnimation.value;
+
+        if(runAnimation.value) {
+          var date = new Date();
+          var time = date.getTime();
+          animate(time, myRectangle, runAnimation, canvas, context);
+        }
+        
+        if((myRectangle.x > 400) && (myRectangle.x < 550)) {
+          context.font = 'bold 20pt Calibri';
+          context.fillText('You won!', 150, 100);
+        }
+
+      });
+
+      drawBox(myBox, context);
+      drawRect(myRectangle, context);
+
+    </script>
+	
+</body>
+</html>
