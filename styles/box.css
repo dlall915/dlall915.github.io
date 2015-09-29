@@ -1,0 +1,12 @@
+h1{
+	background-color:yellow;
+	/* top, right, bottom, left, 
+	OR 1 value for all sides 
+	OR 2 values top/bottom and left/right*/
+	
+	padding:60px 10px;
+	
+	/* dotted, dashed, solid, double, groove, ridge, inset, outset */
+	border: 5px dashed red; /* size style color */
+	/* border-top, border-bottom, border-left, border-right */
+}
