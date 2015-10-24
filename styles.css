@@ -38,7 +38,7 @@ body{
 
     border-right: 1px solid rgba(9, 9, 9, 0.125);
 
-    /* Adding a 1px inset highlight for a more polished efect: */
+    /* Adding a 1px inset highlight for a more polished effect: */
 
     box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
     -moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
@@ -141,8 +141,10 @@ body{
     color: #5d5d5d;
     display: inline-block;
     font: 20px/1 Oswald,Arial,sans-serif;
-    padding: 12px 35px 14px;
-    position: relative;
+    /*
+    padding: 12px 35px 14px; /*top, right and left, bottom*/
+    padding: 12px 5vw 14px;
+    position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
     z-index:2;
     text-decoration:none !important;
@@ -196,7 +198,7 @@ nav{
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 600px;
+    width: 95vw;
 }
 
 footer{
