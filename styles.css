@@ -143,7 +143,7 @@ body{
     font: 20px/1 Oswald,Arial,sans-serif;
     /*
     padding: 12px 35px 14px; /*top, right and left, bottom*/
-    padding: 12px 5vw 14px;
+    padding: 12px 3vw 14px;
     position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
     z-index:2;
