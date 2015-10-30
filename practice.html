@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
     <title>Nutrition</title>
 
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css">
 
     <!-- Including the Oswald font from Google's Font Directory -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
 </head>
 
 <body>
@@ -27,9 +25,32 @@
 <header>
     <h1>Practice</h1>
     <h2>Practice what you've learned!</h2>
+    <h3>Swap the foods so that the they're in order from highest to lowest vitamin C per serving.</h3>
 </header>
+
+<div class="container">
+    <div>
+        <div class="sortable">
+            <img class="sortableimg" src="img/strawberry.png" alt="Strawberry">
+            <p>Strawberry</p>
+        </div>
+        <div class="sortable">
+            <img class="sortableimg" src="img/cookie.png" alt="Cookie">
+            <p>Cookie</p>
+        </div>
+        <div class="sortable">
+            <img class="sortableimg" src="img/apple.png" alt="Apple">
+            <p>Apple</p>
+        </div>
+    </div>
+</div>
+
+<!-- Used in Chromium during development so compiling isn't necessary -->
+<script src="main.dart.js"></script>
+<!-- Dart code compiled into JavaScript -->
+<script src="dart.js"></script>
 
 <footer>David Lall, Brooklyn College. 2015</footer>
 
-</body>
-</html>
+
+</body></html>

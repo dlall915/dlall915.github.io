@@ -53,7 +53,6 @@ body{
 .fancyNav li:after{
 
     /* This creates a pseudo element inside each LI */
-
     content:'.';
     text-indent:-9999px;
     overflow:hidden;
@@ -66,7 +65,6 @@ body{
     opacity:0;
 
     /* Gradients! */
-
     background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
     background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
     background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
@@ -74,13 +72,11 @@ body{
     background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
 
     /* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
-
     box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
     -moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
     -webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
 
     /* This will create a smooth transition for the opacity property */
-
     -moz-transition:0.25s all;
     -webkit-transition:0.25s all;
     -o-transition:0.25s all;
@@ -140,10 +136,9 @@ body{
 .fancyNav li a{
     color: #5d5d5d;
     display: inline-block;
-    font: 20px/1 Oswald,Arial,sans-serif;
-    /*
-    padding: 12px 35px 14px; /*top, right and left, bottom*/
-    padding: 12px 5vw 14px;
+    font: 18px/1 Oswald,Arial,sans-serif;
+    /*vw and vh allow for scaling depending on the viewport size*/
+    padding: 10px 3vw 10px;
     position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
     z-index:2;
@@ -152,7 +147,7 @@ body{
 }
 
 .fancyNav a.homeIcon{
-    background:url('img/home.png') no-repeat center center;
+    background:url(../img/home.png) no-repeat center center;
     display: block;
     overflow: hidden;
     padding-left: 12px;
@@ -162,12 +157,70 @@ body{
 }
 
 
+/*----------------------------
+	Drag and drop
+-----------------------------*/
+
+
+.container {
+    max-width: 400px;
+    padding: 15px 15px 0 15px;
+    margin:0 auto;
+}
+
+.sortable {
+    margin: 15px auto 0 auto; /* top, right, bottom, left */
+    width: 200px;
+    height: 200px;
+    /*background: #cddc39;*/
+    border-radius: 8px;
+    cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
+    cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
+    box-sizing: border-box;
+}
+
+.sortableimg {
+    margin: 0 auto 0 auto;
+    display: block;
+    cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
+    cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
+}
+
+.sortable p {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.dnd-dragging {
+    opacity: 0.5;
+}
+
+.dnd-dragging, .dnd-drag-occurring {
+    cursor: url(../cursor/closedhand.cur), move; /* Cursor for IE. */
+    cursor: url(../cursor/closedhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
+}
+
+.dnd-over {
+    border-width: medium;
+    border-color: #ff5722;
+    border-style: dashed;
+    /*background-color: white;*/
+    opacity: 1;
+}
+
+.dnd-over * {
+    display: none;
+}
+
+
 /*-------------------------
-	Demo Page Styles
+	Page Styles
 --------------------------*/
 
 
-h1,h2{
+h1,h2,h3{
     color: #000000;
     line-height: 1;
     font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif;
@@ -179,13 +232,17 @@ h1,h2{
 h1{
     font-size: 36px;
     padding: 5px 15px 10px;
-    top: 0;
 }
 
 h2{
     font-size: 14px;
     padding: 4px 13px 9px 11px;
-    top: 51px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 header{
