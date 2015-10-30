@@ -8,10 +8,10 @@ html{
 }
 
 body{
-    min-height:500px;
-    font:14px/1.3 'Segoe UI',Arial, sans-serif;
-    color:#000000;
-    padding:10px;
+    min-height: 500px;
+    font: 14px/1.3 'Segoe UI',Arial, sans-serif;
+    color: black;
+    padding: 10px;
 }
 
 
@@ -134,26 +134,27 @@ body{
 /* Styling the anchor elements */
 
 .fancyNav li a{
+    /*vw and vh allow for scaling depending on the viewport size*/
+    width: 20vw;
     color: #5d5d5d;
     display: inline-block;
-    font: 18px/1 Oswald,Arial,sans-serif;
-    /*vw and vh allow for scaling depending on the viewport size*/
-    padding: 10px 3vw 10px;
+    font: 18px/1 Oswald, Arial, sans-serif;
+    padding: 10px 0px;
     position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
-    z-index:2;
-    text-decoration:none !important;
-    white-space:nowrap;
+    z-index: 2;
+    text-decoration: none !important;
+    white-space: nowrap;
 }
 
 .fancyNav a.homeIcon{
+    width: 5vw;
     background:url(../img/home.png) no-repeat center center;
     display: block;
     overflow: hidden;
     padding-left: 12px;
     padding-right: 12px;
     text-indent: -9999px;
-    width: 16px;
 }
 
 
@@ -172,7 +173,6 @@ body{
     margin: 15px auto 0 auto; /* top, right, bottom, left */
     width: 200px;
     height: 200px;
-    /*background: #cddc39;*/
     border-radius: 8px;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
     cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
@@ -206,12 +206,7 @@ body{
     border-width: medium;
     border-color: #ff5722;
     border-style: dashed;
-    /*background-color: white;*/
     opacity: 1;
-}
-
-.dnd-over * {
-    display: none;
 }
 
 
@@ -246,9 +241,9 @@ h3{
 }
 
 header{
-    display:block;
-    margin-top:10px;
-    position:relative;
+    display: block;
+    margin-top: 10px;
+    position: relative;
 }
 
 nav{
@@ -264,7 +259,7 @@ footer{
     line-height: 1.6;
     padding: 60px 20px 0;
     text-align: center;
-    display:block;
+    display: block;
 }
 
 footer b{
@@ -275,11 +270,11 @@ footer b{
 }
 
 a, a:visited {
-    text-decoration:none;
-    outline:none;
-    color:#54a6de;
+    text-decoration: none;
+    outline: none;
+    color: #54a6de;
 }
 
 a:hover{
-    text-decoration:underline;
+    text-decoration: underline;
 }
