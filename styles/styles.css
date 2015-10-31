@@ -180,7 +180,7 @@ body{
 }
 
 .sortableimg {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     display: block;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
     cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
@@ -189,7 +189,6 @@ body{
 .sortable p {
     text-align: center;
     padding-top: 30px;
-    margin: 0;
     font-weight: bold;
 }
 
@@ -204,10 +203,70 @@ body{
 
 .dnd-over {
     border-width: medium;
-    border-color: #ff5722;
     border-style: dashed;
-    opacity: 1;
+    border-color: #ff5722;
 }
+
+
+/*-------------------------
+	Modal Dialog Box
+--------------------------*/
+
+
+.modalDialog {
+    position: fixed;
+    font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 50vw;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    height: 24px;
+    width: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
 
 
 /*-------------------------
@@ -215,7 +274,7 @@ body{
 --------------------------*/
 
 
-h1,h2,h3{
+h1,h2,h3,h4{
     color: #000000;
     line-height: 1;
     font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif;
@@ -225,54 +284,55 @@ h1,h2,h3{
 }
 
 h1{
-    font-size: 36px;
     padding: 5px 15px 10px;
+    font-size: 36px;
 }
 
 h2{
-    font-size: 14px;
     padding: 4px 13px 9px 11px;
+    font-size: 14px;
 }
 
 h3{
+    margin: 20px 0 20px 0;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 40px;
 }
 
+h4{
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+}
 header{
     display: block;
-    margin-top: 10px;
     position: relative;
+    margin-top: 10px;
 }
 
 nav{
+    width: 95vw;
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 95vw;
 }
 
 footer{
-    color: #000;
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 60px 20px 0;
-    text-align: center;
     display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    /*line-height: 1.6;*/
 }
 
-footer b{
-    color: #000;
-    display: block;
-    font-size: 10px;
-    font-weight: normal;
+p {
+    line-height: 30px;
 }
 
 a, a:visited {
     text-decoration: none;
-    outline: none;
-    color: #54a6de;
+    /*outline: none;*/
+    color: #63d2de;
 }
 
 a:hover{
