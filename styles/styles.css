@@ -240,15 +240,15 @@ body{
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
+    background: white;
+    background: -moz-linear-gradient(white, gray);
+    background: -webkit-linear-gradient(white, gray);
+    background: -o-linear-gradient(white, gray);
 }
 
 .close {
     background: #606061;
-    color: #FFFFFF;
+    color: white;
     line-height: 25px;
     position: absolute;
     right: -12px;
@@ -261,12 +261,14 @@ body{
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 1px 1px 3px black;
+    -webkit-box-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px black;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover {
+    background: red;
+}
 
 
 /*-------------------------
@@ -286,6 +288,7 @@ h1,h2,h3,h4{
 h1{
     padding: 5px 15px 10px;
     font-size: 36px;
+    font-weight: bold;
 }
 
 h2{
