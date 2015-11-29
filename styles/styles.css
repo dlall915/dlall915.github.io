@@ -174,8 +174,8 @@ body{
     margin: 0;
     max-width: 128px;
     max-height: 128px;
-    width: 8vw;
-    height: 8vw;
+    width: 15vw;
+    height: 15vw;
     padding-bottom: 6vh;
     display: block;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
