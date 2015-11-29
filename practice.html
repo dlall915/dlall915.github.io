@@ -27,23 +27,41 @@
 <header>
     <h1>Practice</h1>
     <h2>Practice what you've learned!</h2>
-    <h3>Swap the foods so that the they're in order from highest to lowest vitamin C per serving.</h3>
+    <h3>Place the foods in the correct boxes. They will disappear if you are correct.</h3>
 </header>
 
 <div class="container">
-    <div>
-        <div class="sortable">
-            <img class="sortableimg" src="img/strawberry.png" alt="Strawberry">
-            <p>Strawberry</p>
+    <div class="dropzone-container">
+        <div id="dropzone-1" class="dropzone">
+            <p>Fruits</p>
         </div>
-        <div class="sortable">
-            <img class="sortableimg" src="img/cookie.png" alt="Cookie">
-            <p>Cookie</p>
+        <div id="dropzone-2" class="dropzone">
+            <p>Vegetables</p>
         </div>
-        <div class="sortable">
-            <img class="sortableimg" src="img/apple.png" alt="Apple">
-            <p>Apple</p>
+        <div id="dropzone-3" class="dropzone">
+            <p>Junk</p>
         </div>
+    </div>
+
+    <div id="draggableFruit" class="draggableimg">
+        <img class="sortableimg" src="img/strawberry.png" alt="Strawberry">
+        <p>Strawberry</p>
+    </div>
+    <div id="draggableJunk" class="draggableimg">
+        <img class="sortableimg" src="img/cookie.png" alt="Cookie">
+        <p>Cookie</p>
+    </div>
+    <div id="draggableVegetable" class="draggableimg">
+        <img class="sortableimg" src="img/carrot2.png" alt="Carrot">
+        <p>Carrot</p>
+    </div>
+    <div id="draggableFruit2" class="draggableimg">
+        <img class="sortableimg" src="img/apple.png" alt="Apple">
+        <p>Apple</p>
+    </div>
+    <div id="draggableJunk2" class="draggableimg">
+        <img class="sortableimg" src="img/donut.png" alt="Apple">
+        <p>Donut</p>
     </div>
 </div>
 

@@ -159,41 +159,63 @@ body{
 
 
 /*----------------------------
-	Drag and drop
+	Drag and drop images
 -----------------------------*/
 
 
 .container {
-    max-width: 400px;
-    padding: 15px 15px 0 15px;
-    margin:0 auto;
-}
-
-.sortable {
-    margin: 15px auto 0 auto; /* top, right, bottom, left */
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-    cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
-    cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
-    box-sizing: border-box;
-}
-
-.sortableimg {
+    max-width: 500px;
+    min-height: 800px;
+    padding-top: 15px;
     margin: 0 auto;
+}
+
+.draggableimg {
+    margin: 15px 0px 15px 50px; /* top, right, bottom, left */
+    width: 150px;
+    height: 150px;
+    padding-bottom: 50px;
     display: block;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
     cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
 }
 
-.sortable p {
-    text-align: center;
-    padding-top: 30px;
+.draggableimg p {
+    margin: 0;
+    padding-top: 10px;
     font-weight: bold;
+    text-align: center;
+}
+
+.dropzone-container {
+    float: right;
+}
+
+.dropzone {
+    margin: 15px auto 0 auto; /* top, right, bottom, left */
+    width: 150px;
+    height: 200px;
+    border-style: dashed;
+    border-radius: 8px;
+}
+
+.dropzone p {
+    margin: 0;
+    padding-top: 50%;
+    font-weight: bold;
+    text-align: center;
 }
 
 .dnd-dragging {
     opacity: 0.5;
+}
+
+.dnd-over {
+    background-color: lawngreen;
+}
+
+.dnd-invalid {
+    background-color: red;
 }
 
 .dnd-dragging, .dnd-drag-occurring {
@@ -201,10 +223,31 @@ body{
     cursor: url(../cursor/closedhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
 }
 
-.dnd-over {
-    border-width: medium;
-    border-style: dashed;
-    border-color: #ff5722;
+
+/*-------------------------
+	Text Bubble
+--------------------------*/
+
+
+.triangle-right {
+    position:relative;
+    padding:15px;
+    margin:1em 0 3em;
+    color:#fff;
+    background:#075698; /* default background for browsers without gradient support */
+    /* css3 */
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+    background:-moz-linear-gradient(#2e88c4, #075698);
+    background:-o-linear-gradient(#2e88c4, #075698);
+    background:linear-gradient(#2e88c4, #075698);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.triangle-right.right {
+    margin-right:40px;
+    background:#075698;
 }
 
 
