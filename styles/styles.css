@@ -171,7 +171,7 @@ body{
 }
 
 .draggable {
-    margin: 0 0 6vh 0;
+    margin: 0 0 10vh 0;
     max-width: 128px;
     max-height: 128px;
     width: 15vw;
@@ -200,7 +200,7 @@ body{
 }
 
 .dropzone {
-    margin: 15px auto 0 auto; /* top, right, bottom, left */
+    margin: 0 auto 10vh auto; /* top, right, bottom, left */
     max-width: 150px;
     max-height: 200px;
     width: 20vw;
