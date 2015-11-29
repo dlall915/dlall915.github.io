@@ -172,7 +172,7 @@ body{
 
 .draggable {
     margin: 0 0 3vh 0;
-    max-width: 128px;
+    max-width: 150px;
     width: 15vw;
     height: auto;
     padding: 10px;
@@ -386,7 +386,8 @@ footer{
 }
 
 p {
-    line-height: 5vh;
+    line-height: normal;
+    padding-bottom: 10px;
 }
 
 a, a:visited {
