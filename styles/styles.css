@@ -164,27 +164,36 @@ body{
 
 
 .container {
+    margin: 0 auto;
     max-width: 500px;
     min-height: 800px;
     padding-top: 15px;
-    margin: 0 auto;
 }
 
-.draggableimg {
-    margin: 15px 0px 15px 50px; /* top, right, bottom, left */
-    width: 150px;
-    height: 150px;
-    padding-bottom: 50px;
+.draggable {
+    margin: 0;
+    max-width: 128px;
+    max-height: 128px;
+    width: 8vw;
+    height: 8vw;
+    padding-bottom: 6vh;
     display: block;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
     cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
 }
 
-.draggableimg p {
+.draggable p {
     margin: 0;
     padding-top: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+.draggable img {
+    max-width: 128px;
+    max-height: 128px;
+    width: 8vw;
+    height: 8vw;
 }
 
 .dropzone-container {
@@ -193,8 +202,10 @@ body{
 
 .dropzone {
     margin: 15px auto 0 auto; /* top, right, bottom, left */
-    width: 150px;
-    height: 200px;
+    max-width: 150px;
+    max-height: 200px;
+    width: 10vw;
+    height: 15vh;
     border-style: dashed;
     border-radius: 8px;
 }
