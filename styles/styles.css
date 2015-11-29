@@ -171,12 +171,11 @@ body{
 }
 
 .draggable {
-    margin: 0;
+    margin: 0 0 6vh 0;
     max-width: 128px;
     max-height: 128px;
     width: 15vw;
     height: 15vw;
-    padding-bottom: 6vh;
     display: block;
     cursor: url(../cursor/openhand.cur), move; /* Cursor for IE. */
     cursor: url(../cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
@@ -204,7 +203,7 @@ body{
     margin: 15px auto 0 auto; /* top, right, bottom, left */
     max-width: 150px;
     max-height: 200px;
-    width: 15vw;
+    width: 20vw;
     height: 20vh;
     border-style: dashed;
     border-radius: 8px;
