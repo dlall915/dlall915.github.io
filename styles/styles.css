@@ -135,7 +135,7 @@ body{
 
 .fancyNav li a{
     /*vw and vh allow for scaling depending on the viewport size*/
-    width: 20vw;
+    width: 15vw;
     color: #5d5d5d;
     display: inline-block;
     font: 18px/1 'Segoe UI', Arial, sans-serif;
