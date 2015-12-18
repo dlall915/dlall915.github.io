@@ -138,7 +138,7 @@ body{
     width: 15vw;
     color: #5d5d5d;
     display: inline-block;
-    font: 18px/1 'Segoe UI', Arial, sans-serif;
+    font: 18px 'Segoe UI', Arial, sans-serif;
     padding: 10px 0px;
     position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
@@ -235,33 +235,6 @@ body{
 
 
 /*-------------------------
-	Text Bubble
---------------------------*/
-
-
-.triangle-right {
-    position:relative;
-    padding:15px;
-    margin:1em 0 3em;
-    color:#fff;
-    background:#075698; /* default background for browsers without gradient support */
-    /* css3 */
-    background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
-    background:-moz-linear-gradient(#2e88c4, #075698);
-    background:-o-linear-gradient(#2e88c4, #075698);
-    background:linear-gradient(#2e88c4, #075698);
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
-}
-
-.triangle-right.right {
-    margin-right:40px;
-    background:#075698;
-}
-
-
-/*-------------------------
 	Modal Dialog Box
 --------------------------*/
 
@@ -289,6 +262,7 @@ body{
 
 .modalDialog > div {
     width: 50vw;
+    max-width: 490px;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
@@ -301,6 +275,13 @@ body{
 
 .modalDialog p {
     line-height: normal;
+    text-align: center;
+}
+
+.modalDialog img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .close {
@@ -357,6 +338,7 @@ h3{
     margin: 20px 0 20px 0;
     font-size: 14px;
     font-weight: bold;
+    line-height: normal;
 }
 
 h4{
@@ -378,11 +360,9 @@ nav{
 }
 
 footer{
-    display: block;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
-    font-size: 15px;
-    /*line-height: 1.6;*/
+    font-size: 14px;
 }
 
 p {

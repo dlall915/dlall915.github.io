@@ -28,8 +28,10 @@
 <header>
     <h1>Practice</h1>
     <h2>Practice what you've learned!</h2>
-    <h3>Drag the foods into the correct box. The box's color will indicate if you're correct and the food will
-    disappear. <a href="javascript:randomlink()">Click here</a> to change the foods.</h3>
+    <h3>Drag the foods into the correct box. The box's color will indicate if you are correct and the food will
+    disappear.
+        <br><a href="#tutorialModal">Click here</a> to see a tutorial.
+        <br><a href="javascript:randomlink()">Click here</a> to practice with other foods.</h3>
 </header>
 
 <!-- Contains the draggable images and the drop zones -->
@@ -86,6 +88,14 @@
         window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
     }
 </script>
+
+<div id="tutorialModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">CLOSE X</a>
+        <h3>Tutorial</h3>
+        <img src="img/practice_tutorial.gif" alt="Tutorial">
+    </div>
+</div>
 
 <footer>David Lall, Brooklyn College. 2015</footer>
 
