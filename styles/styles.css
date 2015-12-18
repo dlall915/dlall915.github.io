@@ -138,13 +138,19 @@ body{
     width: 15vw;
     color: #5d5d5d;
     display: inline-block;
-    font: 18px 'Segoe UI', Arial, sans-serif;
+    font: 13px 'Segoe UI', Arial, sans-serif;
     padding: 10px 0px;
     position: relative; /*adjusted from it's normal position*/
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
     z-index: 2;
     text-decoration: none !important;
     white-space: nowrap;
+}
+
+@media screen and (min-width: 480px) {
+    .fancyNav li a {
+        font-size: 18px;
+    }
 }
 
 .fancyNav a.homeIcon{
@@ -173,7 +179,7 @@ body{
 .draggable {
     margin: 0 0 3vh 0;
     max-width: 150px;
-    width: 15vw;
+    width: 18vw;
     height: auto;
     padding: 10px;
     display: block;
@@ -190,8 +196,11 @@ body{
 }
 
 .draggable img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 128px;
-    width: 15vw;
+    width: 18vw;
     height: auto;
 }
 
@@ -202,18 +211,37 @@ body{
 .dropzone {
     margin: 0 auto 10vh auto; /* top, right, bottom, left */
     max-width: 150px;
-    max-height: 200px;
+    max-height: 150px;
     width: 20vw;
     height: 20vh;
     border-style: dashed;
     border-radius: 8px;
 }
 
+@media all and (orientation:landscape) {
+    .dropzone {
+        max-width: 150vh;
+        max-height: 150px;
+        width: 20vh;
+        height: 20vw;
+    }
+}
+
 .dropzone p {
-    margin: 0;
-    padding-top: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 128px;
+    width: 18vw;
+    height: auto;
     font-weight: bold;
     text-align: center;
+}
+
+@media all and (orientation:landscape) {
+    .dropzone p {
+        width: 18vh;
+    }
 }
 
 .dnd-dragging {
