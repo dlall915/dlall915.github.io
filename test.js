@@ -3882,23 +3882,23 @@
       $isEfficientLength: 1
     },
     ListIterator: {
-      "^": "Object;_iterable,_length,_index,_current",
+      "^": "Object;_iterable,__internal$_length,_index,__internal$_current",
       get$current: function() {
-        return this._current;
+        return this.__internal$_current;
       },
       moveNext$0: function() {
         var t1, t2, $length, t3;
         t1 = this._iterable;
         t2 = J.getInterceptor$asx(t1);
         $length = t2.get$length(t1);
-        if (this._length !== $length)
+        if (this.__internal$_length !== $length)
           throw H.wrapException(new P.ConcurrentModificationError(t1));
         t3 = this._index;
         if (t3 >= $length) {
-          this._current = null;
+          this.__internal$_current = null;
           return false;
         }
-        this._current = t2.elementAt$1(t1, t3);
+        this.__internal$_current = t2.elementAt$1(t1, t3);
         ++this._index;
         return true;
       }
@@ -3927,18 +3927,18 @@
       $isEfficientLength: 1
     },
     MappedIterator: {
-      "^": "Iterator;_current,_iterator,_f",
+      "^": "Iterator;__internal$_current,_iterator,_f",
       moveNext$0: function() {
         var t1 = this._iterator;
         if (t1.moveNext$0()) {
-          this._current = this._f$1(t1.get$current());
+          this.__internal$_current = this._f$1(t1.get$current());
           return true;
         }
-        this._current = null;
+        this.__internal$_current = null;
         return false;
       },
       get$current: function() {
-        return this._current;
+        return this.__internal$_current;
       },
       _f$1: function(arg0) {
         return this._f.call$1(arg0);
@@ -8873,22 +8873,22 @@
       $isEfficientLength: 1
     },
     FixedSizeListIterator: {
-      "^": "Object;_array,_html$_length,_position,_html$_current",
+      "^": "Object;_array,_length,_position,_current",
       moveNext$0: function() {
         var nextPosition, t1;
         nextPosition = this._position + 1;
-        t1 = this._html$_length;
+        t1 = this._length;
         if (nextPosition < t1) {
-          this._html$_current = J.$index$asx(this._array, nextPosition);
+          this._current = J.$index$asx(this._array, nextPosition);
           this._position = nextPosition;
           return true;
         }
-        this._html$_current = null;
+        this._current = null;
         this._position = t1;
         return false;
       },
       get$current: function() {
-        return this._html$_current;
+        return this._current;
       }
     },
     _DOMWindowCrossFrame: {
@@ -10981,16 +10981,21 @@
         return s.add$1(0, this._captured_value_0);
       }
     }
-  }], ["", "main.dart",, F, {
+  }], ["", "test.dart",, V, {
     "^": "",
+    updateScore: function() {
+      document.querySelector("#results").textContent = "Score: " + C.JSNumber_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct!";
+      if ($.droppedCounter === 10 && $.totalCorrect === 5)
+        document.querySelector("#results").textContent = "Score: " + C.JSNumber_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct! Excellent, all correct!";
+    },
     main: [function() {
-      var foodList, t1, t2, t3, dropzone1, dropzone2, dropzone3;
+      var foodList, t1, t2, t3, t4, dropzone1, dropzone2, dropzone3;
       foodList = [];
       foodList.push(Z.Draggable$(document.querySelector("#draggableFruit"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
       foodList.push(Z.Draggable$(document.querySelector("#draggableVegetable"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
       foodList.push(Z.Draggable$(document.querySelector("#draggableJunk"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
       foodList.push(Z.Draggable$(document.querySelector("#draggableFruit2"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
-      foodList.push(Z.Draggable$(document.querySelector("#draggableVegetable2"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
+      foodList.push(Z.Draggable$(document.querySelector("#draggableFruit3"), new Z.CloneAvatarHandler(null, null, null, null), "input, textarea, button, select, option", "dnd-dragging", "dnd-drag-occurring", null, false, false));
       t1 = document.querySelector("#dropzone-1");
       t2 = foodList.length;
       if (0 >= t2)
@@ -10998,39 +11003,47 @@
       t3 = foodList[0];
       if (3 >= t2)
         return H.ioore(foodList, 3);
-      dropzone1 = Z.Dropzone$(t1, Z.DraggablesAcceptor$([t3, foodList[3]]), "dnd-invalid", "dnd-over");
-      t3 = document.querySelector("#dropzone-2");
-      t1 = foodList.length;
-      if (1 >= t1)
-        return H.ioore(foodList, 1);
-      t2 = foodList[1];
-      if (4 >= t1)
+      t4 = foodList[3];
+      if (4 >= t2)
         return H.ioore(foodList, 4);
-      dropzone2 = Z.Dropzone$(t3, Z.DraggablesAcceptor$([t2, foodList[4]]), "dnd-invalid", "dnd-over");
-      t2 = document.querySelector("#dropzone-3");
+      dropzone1 = Z.Dropzone$(t1, Z.DraggablesAcceptor$([t3, t4, foodList[4]]), "dnd-invalid", "dnd-over");
+      t4 = document.querySelector("#dropzone-2");
+      if (1 >= foodList.length)
+        return H.ioore(foodList, 1);
+      dropzone2 = Z.Dropzone$(t4, Z.DraggablesAcceptor$([foodList[1]]), "dnd-invalid", "dnd-over");
+      t4 = document.querySelector("#dropzone-3");
       if (2 >= foodList.length)
         return H.ioore(foodList, 2);
-      dropzone3 = Z.Dropzone$(t2, Z.DraggablesAcceptor$([foodList[2]]), "dnd-invalid", "dnd-over");
-      dropzone1.get$onDrop(dropzone1).listen$1(new F.main_closure());
-      dropzone2.get$onDrop(dropzone2).listen$1(new F.main_closure0());
-      dropzone3.get$onDrop(dropzone3).listen$1(new F.main_closure1());
-    }, "call$0", "main__main$closure", 0, 0, 2],
+      dropzone3 = Z.Dropzone$(t4, Z.DraggablesAcceptor$([foodList[2]]), "dnd-invalid", "dnd-over");
+      dropzone1.get$onDrop(dropzone1).listen$1(new V.main_closure());
+      dropzone2.get$onDrop(dropzone2).listen$1(new V.main_closure0());
+      dropzone3.get$onDrop(dropzone3).listen$1(new V.main_closure1());
+    }, "call$0", "test__main$closure", 0, 0, 2],
     main_closure: {
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
+        $.totalCorrect = $.totalCorrect + 0.5;
+        $.droppedCounter = $.droppedCounter + 1;
+        V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
     },
     main_closure0: {
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
+        $.totalCorrect = $.totalCorrect + 0.5;
+        $.droppedCounter = $.droppedCounter + 1;
+        V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
     },
     main_closure1: {
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
+        $.totalCorrect = $.totalCorrect + 0.5;
+        $.droppedCounter = $.droppedCounter + 1;
+        V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
     }
   }, 1]];
@@ -11331,6 +11344,8 @@
   $.Device__isFirefox = null;
   $.Device__isWebKit = null;
   $.Device__cachedCssPrefix = null;
+  $.totalCorrect = 0;
+  $.droppedCounter = 0;
   $ = null;
   init.isHunkLoaded = function(hunkHash) {
     return !!$dart_deferred_initializers$[hunkHash];
@@ -11588,14 +11603,14 @@
     init.currentScript = currentScript;
     if (typeof dartMainRunner === "function")
       dartMainRunner(function(a) {
-        H.startRootIsolate(F.main__main$closure(), a);
+        H.startRootIsolate(V.test__main$closure(), a);
       }, []);
     else
       (function(a) {
-        H.startRootIsolate(F.main__main$closure(), a);
+        H.startRootIsolate(V.test__main$closure(), a);
       })([]);
   });
   // END invoke [main].
 })();
 
-//# sourceMappingURL=dart.js.map
+//# sourceMappingURL=test.js.map

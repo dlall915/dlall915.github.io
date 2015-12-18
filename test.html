@@ -6,7 +6,7 @@
     <title>Nutrition</title>
 
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles_test.css" />
 
     <!-- Including the Oswald font from Google's Font Directory -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
@@ -28,10 +28,17 @@
 <header>
     <h1>Test</h1>
     <h2>Test your knowledge!</h2>
-    <h3>Make sure you <a href="practice.html">practice here</a> first</h3>
+    <h3>Make sure you <a href="practice.html">practice here</a> first
+        <br><a href="#answersModal">Click here</a> to see the answers.</h3>
 </header>
 
+<p id="results" style="font-size: 20px; text-align: center;">
+    Score: 0 out of 5 correct!
+</p>
+
+<!-- Contains the draggable images and the drop zones -->
 <div class="container">
+    <!-- Setting up the drop zones -->
     <div class="dropzone-container">
         <div id="dropzone-1" class="dropzone">
             <p>Fruits</p>
@@ -44,32 +51,41 @@
         </div>
     </div>
 
+    <!-- Setting up the draggable images -->
     <div id="draggableFruit" class="draggable">
-        <img class="sortableimg" src="img/strawberry.png" alt="Strawberries">
-        <p>Strawberries</p>
+        <img class="sortableimg" src="img/banana.png" alt="Banana">
+        <p>Banana</p>
     </div>
     <div id="draggableVegetable" class="draggable">
         <img class="sortableimg" src="img/tomato.png" alt="Tomatoes">
         <p>Tomatoes</p>
     </div>
     <div id="draggableJunk" class="draggable">
-        <img class="sortableimg" src="img/icecream.png" alt="Ice Cream">
-        <p>Ice Cream</p>
+        <img class="sortableimg" src="img/cookie.png" alt="Cookie">
+        <p>Cookie</p>
     </div>
     <div id="draggableFruit2" class="draggable">
         <img class="sortableimg" src="img/apple.png" alt="Apple">
         <p>Apple</p>
     </div>
-    <div id="draggableJunk2" class="draggable">
-        <img class="sortableimg" src="img/donut.png" alt="Apple">
-        <p>Donut</p>
+    <div id="draggableFruit3" class="draggable">
+        <img class="sortableimg" src="img/cherry.png" alt="Cherries">
+        <p>Cherries</p>
     </div>
 </div>
 
 <!-- Used in Chromium during development so compiling isn't necessary -->
-<script type="application/dart" src="main.dart"></script>
+<script type="application/dart" src="test.dart"></script>
 <!-- Dart code compiled into JavaScript -->
-<script src="dart.js"></script>
+<script src="test.js"></script>
+
+<div id="answersModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">CLOSE X</a>
+        <h3>Answers</h3>
+        <img src="img/answers.jpg" alt="Tutorial" style="max-width:400px; width:50vw; height: auto;"/>
+    </div>
+</div>
 
 <footer>David Lall, Brooklyn College. 2015</footer>
 
