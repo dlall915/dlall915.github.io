@@ -10984,9 +10984,9 @@
   }], ["", "test.dart",, V, {
     "^": "",
     updateScore: function() {
-      document.querySelector("#results").textContent = "Score: " + C.JSNumber_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct!";
-      if ($.droppedCounter === 10 && $.totalCorrect === 5)
-        document.querySelector("#results").textContent = "Score: " + C.JSNumber_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct! Excellent, all correct!";
+      document.querySelector("#results").textContent = "Score: " + C.JSInt_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct!";
+      if ($.droppedCounter === 5 && $.totalCorrect === 5)
+        document.querySelector("#results").textContent = "Score: " + C.JSInt_methods.toString$0($.totalCorrect) + " out of " + C.JSInt_methods.toString$0(5) + " correct! Excellent, all correct!";
     },
     main: [function() {
       var foodList, t1, t2, t3, t4, dropzone1, dropzone2, dropzone3;
@@ -11023,7 +11023,7 @@
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
-        $.totalCorrect = $.totalCorrect + 0.5;
+        $.totalCorrect = $.totalCorrect + 1;
         $.droppedCounter = $.droppedCounter + 1;
         V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
@@ -11032,7 +11032,7 @@
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
-        $.totalCorrect = $.totalCorrect + 0.5;
+        $.totalCorrect = $.totalCorrect + 1;
         $.droppedCounter = $.droppedCounter + 1;
         V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
@@ -11041,7 +11041,7 @@
       "^": "Closure:6;",
       call$1: [function($event) {
         J.remove$0$ax($event.get$draggableElement());
-        $.totalCorrect = $.totalCorrect + 0.5;
+        $.totalCorrect = $.totalCorrect + 1;
         $.droppedCounter = $.droppedCounter + 1;
         V.updateScore();
       }, null, null, 2, 0, null, 0, "call"]
