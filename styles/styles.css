@@ -179,6 +179,8 @@ body{
 .draggable {
     margin: 0 0 3vh 0;
     max-width: 150px;
+    min-width: 100px;
+    min-height: 100px;
     width: 18vw;
     height: auto;
     padding: 10px;
@@ -212,6 +214,8 @@ body{
     margin: 0 auto 10vh auto; /* top, right, bottom, left */
     max-width: 150px;
     max-height: 150px;
+    min-width: 100px;
+    min-height: 100px;
     width: 20vw;
     height: 20vh;
     border-style: dashed;
