@@ -19,7 +19,7 @@ void updateScore() {
 }
 
 void scoreMessage() {
-  if (droppedCounter == 10.0 && totalCorrect == 5.0) {
+  if (droppedCounter == 5 && totalCorrect == 5) {
     querySelector('#results').text = 'Score: ' + ((totalCorrect)).toString() + ' out of ' + totalDraggables.toString() +
     ' correct! Excellent, all correct!';
   }
@@ -58,21 +58,21 @@ void main() {
   // Remove the foods when dragged into the correct dropzone.
   dropzone1.onDrop.listen((DropzoneEvent event) {
     event.draggableElement.remove();
-    totalCorrect+= 0.5;
+    totalCorrect+= 1;
     droppedCounter+= 1;
     updateScore();
   });
 
   dropzone2.onDrop.listen((DropzoneEvent event) {
     event.draggableElement.remove();
-    totalCorrect+= 0.5;
+    totalCorrect+= 1;
     droppedCounter+= 1;
     updateScore();
   });
 
   dropzone3.onDrop.listen((DropzoneEvent event) {
     event.draggableElement.remove();
-    totalCorrect+= 0.5;
+    totalCorrect+= 1;
     droppedCounter+= 1;
     updateScore();
   });
