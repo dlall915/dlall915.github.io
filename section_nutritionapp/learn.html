@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" manifest="example.appcache">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    <title>Learn</title>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!-- Including the Oswald font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" />
+</head>
+
+<nav>
+    <ul class="fancyNav">
+        <li id="home"><a href="home.html" class="homeIcon">Home</a></li>
+        <li id="learn"><a href="learn.html">Learn</a></li>
+        <li id="practice"><a href="practice.html">Practice</a></li>
+        <li id="test"><a href="test.html">Test</a></li>
+        <li id="other"><a href="other.html">Other</a></li>
+        <li id="about"><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Learn</h1>
+    <h2>Learn the basics of nutrition.</h2>
+</header>
+
+<p>Note: Click <span style="color: #6AB962">colored</span> words to learn more about them!</p>
+
+<p style="text-decoration: underline; display: inline; font-size: 18px; font-weight: bold">Macronutrient</p>
+<p style="display: inline; font-size: 18px">- a substance required in relatively large amounts by living organisms, in
+    particular.</p>
+
+<li style="margin: 10px"><b>Carbohydrates:</b> These should make up 45 to 65 percent of your daily <a href="#calorieModal">
+    calories</a> and are made up of starch, sugar, and fiber.</li>
+<li style="margin: 10px"><b>Proteins:</b> These should make up 10 to 35 percent of your daily <a href="#calorieModal">calories
+    </a>. Their role in the body includes building, maintaining, and repairing body tissue.  There are other roles too,
+    including hormone production and in aiding our immune system.</li>
+<li style="margin: 10px"><b>Fats:</b> These should make up about 20 percent of your daily <a href="#calorieModal">calories</a>.
+    Despite the misconceptions about fats, they play important roles in our body. Some of these are insulation to keep
+    us warm and protect our organs, promoting growth and development, and helping to digest certain vitamins.
+</li>
+
+<p>*As you may know, alcohol also provides us with calories, but is not considered a macronutrient since we do not
+   need it for survival.</p>
+
+<p style="text-decoration: underline; display: inline; font-size: 18px; font-weight: bold">Micronutrient</p>
+<p style="display: inline; font-size: 18px">- a chemical element or substance required in trace amounts for the normal
+    growth and development of living organisms.</p>
+
+<li style="margin: 10px"><b>Vitamins:</b> These can be split into two categories, fat-soluble vitamins (A and D for example)
+    and water-soluble vitamins (Bs and C for example). Water-soluble vitamins require a steady daily intake from a
+    combinations of food and  <a href="#supplementModal">supplements</a> as your body does not store most of them while
+    fat-soluble vitamins are stored in your body tissue.
+    <li style="margin: 30px"><b>Vitamin A:</b> Keeps tissue and skin healthy. Plays an important role in bone growth. Also aids
+        with vision in dim light. The most common type of Vitamin A is beta-carotene, which is responsible for the orange
+        pigment in many foods such as carrots, pumpkin, sweet potatoes, and cantaloupe.
+    </li>
+    <li style="margin: 30px">Vitamin B<sub>1</sub>(thiamin):</li>
+    <li style="margin: 30px">Vitamin B<sub>2</sub>(riboflavin):</li>
+    <li style="margin: 30px">Vitamin B<sub>3</sub>(niacin):</li>
+    <li style="margin: 30px">Vitamin B<sub>5</sub>(pantothenic Acid):</li>
+    <li style="margin: 30px">Vitamin B<sub>6</sub>((pyridoxal, pyridoxine, pyridoxamine):</li>
+    <li style="margin: 30px">Vitamin B<sub>12</sub>(cobalamin):</li>
+    <li style="margin: 30px"><b>Vitamin C:</b> Important for your skin, bones, and connective tissue. It promotes healing and
+        helps the body absorb iron. Some foods rich in vitamin C are kiwis, strawberries, oranges, and bell peppers.
+    </li>
+    <li style="margin: 30px"><b>Vitamin D:</b> Plays a role in your nerve, muscle, and immune systems. It also helps your body
+        absorb calcium. Your body can actually form vitamin D naturally when you are out in the sunlight. Some foods that
+        can also provide you with vitamin D are tuna, eggs (yolk), and cod liver oil.
+    </li>
+    <li style="margin: 30px"><b>Vitamin E:</b> Vital to your immune system and cell protection. It's <a href="#antioxidantModal">
+        antioxidant</a> properties are what make this vitamin so popular for skin care. Some sources are almonds,
+        peanuts, and various vegetable oils.
+    </li>
+    <li style="margin: 30px">Folic Acid:</li>
+    <li style="margin: 30px"><b>Vitamin K:</b></li>
+</li>
+
+<li style="margin: 10px"><b>Minerals:</b> These can also be split into two categories, major minerals (calcium, sodium, etc.)
+    and trace minerals (zinc, iodine). Trace minerals are needed in much lesser quantities than the major minerals. One
+    of the examples mentioned, iodine, can usually be found in the salt you use daily.
+</li>
+
+<div id="calorieModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">CLOSE X</a>
+        <h3>Calorie</h3>
+        <p>Calories are a measure of energy. This energy fuels our body the way gasoline fuels a car.</p>
+    </div>
+</div>
+
+<div id="antioxidantModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">CLOSE X</a>
+        <h3>Antioxidant</h3>
+        <p>Antioxidants protect the body from damage caused by harmful molecules called free radicals. You are exposed
+            to free radicals by normal processes that take place in your body, the breaking down of certain medicines, and
+            pollution.
+        </p>
+    </div>
+</div>
+
+<div id="supplementModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">CLOSE X</a>
+        <h3>Supplement</h3>
+        <p>Something that completes or enhances something else when added to it. For example, using a multivitamin may
+            supplement your vitamin C for the day if you are only getting 50% of the recommended amount through your
+            diet.
+        </p>
+    </div>
+</div>
+
+<footer>David Lall, Brooklyn College. 2015</footer>
+
+</body>
+</html>

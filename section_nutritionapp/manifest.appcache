@@ -1,0 +1,33 @@
+# Explicitly cached files
+CACHE:
+home.html
+learn.html
+practice.html
+test.html
+style.css
+style_test.css
+img/apple.png
+img/tomato.png
+img/donut.png
+img/banana.png
+img/lettuce.png
+img/peas.png
+img/orange.png
+img/strawberry.png
+img/cherry.png
+img/cookie.png
+img/icecream.png
+img/broccoli.png
+img/lettuce.png
+img/carrot.png
+img/pumpkin.png
+dart.js
+test.js
+
+# Resources that require the user to be online
+NETWORK:
+*
+
+# Home page picture is replaced with an offline image
+FALLBACK:
+img/healthyfood_small.png img/offline.png
