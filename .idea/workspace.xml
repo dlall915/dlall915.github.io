@@ -2,110 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/cursor/closedhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/cursor/openhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/answers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/banana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/bread.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/broccoli.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/carrot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/cherry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/cookie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/donut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/egg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/healthyfood_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/icecream.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/kiwi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/lettuce.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/meat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/myplate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/offline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/peas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/practice_tutorial.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/pumpkin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/sausage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/strawberry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/img/nutrition_project/tomato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/dart.js.backup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/dart.js.deps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/dart.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/dnd.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/learn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/main.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/main.js.deps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/main.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/manifest.appcache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/practice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/practice2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/practice3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/styles/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/styles/styles_test.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/test.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/test.js.deps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/section_nutritionapp/test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/draggable.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/draggable_avatar.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/draggable_dispatch.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/draggable_manager.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/dropzone.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src_dart/dropzone_acceptor.dart" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/other_pages/box_model.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/other_pages/second_page.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dancing_banana.jpg" afterPath="$PROJECT_DIR$/img/default/dancing_banana.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/turtle_big.jpg" afterPath="$PROJECT_DIR$/img/default/turtle_big.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/turtle_small.jpg" afterPath="$PROJECT_DIR$/img/default/turtle_small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/answers.jpg" afterPath="$PROJECT_DIR$/img/nutrition_project/answers.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/apple.png" afterPath="$PROJECT_DIR$/img/nutrition_project/apple.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/background.png" afterPath="$PROJECT_DIR$/img/nutrition_project/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/banana.png" afterPath="$PROJECT_DIR$/img/nutrition_project/banana.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bread.png" afterPath="$PROJECT_DIR$/img/nutrition_project/bread.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/broccoli.png" afterPath="$PROJECT_DIR$/img/nutrition_project/broccoli.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/carrot.png" afterPath="$PROJECT_DIR$/img/nutrition_project/carrot.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/cherry.png" afterPath="$PROJECT_DIR$/img/nutrition_project/cherry.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/cookie.png" afterPath="$PROJECT_DIR$/img/nutrition_project/cookie.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/donut.png" afterPath="$PROJECT_DIR$/img/nutrition_project/donut.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/egg.png" afterPath="$PROJECT_DIR$/img/nutrition_project/egg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/healthyfood_small.png" afterPath="$PROJECT_DIR$/img/nutrition_project/healthyfood_small.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/home.png" afterPath="$PROJECT_DIR$/img/nutrition_project/home.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/icecream.png" afterPath="$PROJECT_DIR$/img/nutrition_project/icecream.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/kiwi.png" afterPath="$PROJECT_DIR$/img/nutrition_project/kiwi.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/lettuce.png" afterPath="$PROJECT_DIR$/img/nutrition_project/lettuce.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/meat.png" afterPath="$PROJECT_DIR$/img/nutrition_project/meat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/myplate.png" afterPath="$PROJECT_DIR$/img/nutrition_project/myplate.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/offline.png" afterPath="$PROJECT_DIR$/img/nutrition_project/offline.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/orange.png" afterPath="$PROJECT_DIR$/img/nutrition_project/orange.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/peas.png" afterPath="$PROJECT_DIR$/img/nutrition_project/peas.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/practice_tutorial.gif" afterPath="$PROJECT_DIR$/img/nutrition_project/practice_tutorial.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/pumpkin.png" afterPath="$PROJECT_DIR$/img/nutrition_project/pumpkin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/sausage.png" afterPath="$PROJECT_DIR$/img/nutrition_project/sausage.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/strawberry.png" afterPath="$PROJECT_DIR$/img/nutrition_project/strawberry.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/tomato.png" afterPath="$PROJECT_DIR$/img/nutrition_project/tomato.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/draggable.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/draggable.dart" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/draggable_avatar.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/draggable_avatar.dart" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/draggable_dispatch.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/draggable_dispatch.dart" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/draggable_manager.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/draggable_manager.dart" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dropzone.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/dropzone.dart" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dropzone_acceptor.dart" afterPath="$PROJECT_DIR$/section_nutritionapp/src_dart/dropzone_acceptor.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dnd.dart" afterPath="$PROJECT_DIR$/dnd.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice.html" afterPath="$PROJECT_DIR$/practice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice2.html" afterPath="$PROJECT_DIR$/practice2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice3.html" afterPath="$PROJECT_DIR$/practice3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random.html" afterPath="$PROJECT_DIR$/random.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles_test.css" afterPath="$PROJECT_DIR$/styles/styles_test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cursor/closedhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cursor/openhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dart.js.backup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dart.js.deps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dart.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dnd.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.js.deps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manifest.appcache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/draggable.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/draggable_avatar.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/draggable_dispatch.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/draggable_manager.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/dropzone.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src_dart/dropzone_acceptor.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/styles_test.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.dart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.js.deps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/browser/dart.js" afterPath="$PROJECT_DIR$/section_nutritionapp/packages/browser/dart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/browser/interop.js" afterPath="$PROJECT_DIR$/section_nutritionapp/packages/browser/interop.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/browser/lib/dart.js" afterPath="$PROJECT_DIR$/section_nutritionapp/packages/browser/lib/dart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_nutritionapp/manifest.appcache" afterPath="$PROJECT_DIR$/section_nutritionapp/manifest.appcache" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,96 +53,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="practice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice.html">
+      <file leaf-file-name="second_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="39" lean-forward="false" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dnd.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dnd.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#14#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1840#0" expanded="true" />
-                <element signature="e#202#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dropzone.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src_dart/dropzone.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dropzone.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section_nutritionapp/src_dart/dropzone.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section_nutritionapp/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="other.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/section_nutritionapp/other.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles_test.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles_test.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="159" column="19" lean-forward="true" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles.css">
+      <file leaf-file-name="manifest.appcache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/section_nutritionapp/manifest.appcache">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dlall915.github.io.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dlall915.github.io.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -244,6 +121,7 @@
         <option value="$PROJECT_DIR$/styles/styles_test.css" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/dnd.dart" />
+        <option value="$PROJECT_DIR$/manifest.appcache" />
       </list>
     </option>
   </component>
@@ -283,20 +161,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dlall915.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dlall915.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="section_nutritionapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -310,6 +174,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\section_nutritionapp" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\img\nutrition_project" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -544,7 +409,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="684" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -561,7 +426,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -604,9 +469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,10 +477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#2692#0" expanded="true" />
-            <element signature="e#321#340#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,10 +485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#1840#0" expanded="true" />
-            <element signature="e#202#221#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,10 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1840#0" expanded="true" />
-            <element signature="e#202#221#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,10 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1840#0" expanded="true" />
-            <element signature="e#202#221#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,10 +565,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#2692#0" expanded="true" />
-            <element signature="e#321#340#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -725,22 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -821,9 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,10 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1840#0" expanded="true" />
-            <element signature="e#202#221#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,6 +698,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section_nutritionapp/other.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section_nutritionapp/packages/browser/lib/dart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section_nutritionapp/manifest.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dlall915.github.io.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
