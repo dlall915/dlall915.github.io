@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/photography_gallery.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photography_gallery.html" afterPath="$PROJECT_DIR$/photography_gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/videos/config.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_0275.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_0675.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_1648.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_3783.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_3820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_4328.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/images/DSC_4352.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_0275.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_0675.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_1648.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_3783.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_3820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_4328.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/juicebox_gallery/thumbs/DSC_4352.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photography_gallery.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,16 +53,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
               <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,7 +166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="juicebox_gallery" />
+              <option name="myItemId" value="videos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,10 +181,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="juicebox_gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jbcore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,6 +203,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io" />
+      <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\videos" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\section_nutritionapp" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\img\nutrition_project" />
     </key>
@@ -620,18 +622,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juicebox_gallery/photography_gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photography_gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
         </state>
       </provider>
