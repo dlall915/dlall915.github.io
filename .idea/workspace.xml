@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photography_gallery.html" afterPath="$PROJECT_DIR$/photography_gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/juicebox_gallery/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photography_gallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="photography_gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photography_gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="612">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/juicebox_gallery/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -180,6 +191,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\juicebox_gallery" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\section_nutritionapp" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\img\default" />
@@ -623,8 +635,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photography_gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="612">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juicebox_gallery/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding />
         </state>
       </provider>
