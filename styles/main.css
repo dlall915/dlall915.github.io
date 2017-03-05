@@ -94,7 +94,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #FFAC1C;
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
 }
@@ -212,3 +212,13 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
 /* Contact form END */
+
+
+
+/* Changes for desktop view */
+
+@media(min-width: 60em) {
+	body {
+	    font-size: 90%
+	}
+}
