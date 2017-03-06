@@ -22,6 +22,14 @@ html {
 }
 
 body {
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     font-family: "Ubuntu";
     font-size: 16px;
     color: white;
@@ -38,9 +46,9 @@ h1 {
 
 /* only used in contact, create a class and move there */
 h2 {
-    font-size:150%;
-    text-align:center;
-    margin-bottom:10px;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 label {
@@ -68,10 +76,10 @@ a {
     margin: 0 auto;
     border-radius:50%;
     width: 30%;
-    max-width:200px;
+    max-width: 200px;
 }
 
 .wrapper {
-	max-width:1280px;
-	margin:0 auto;
+	max-width: 1280px;
+	margin: 0 auto;
 }
