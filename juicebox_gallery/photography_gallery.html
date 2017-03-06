@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>Gallery</title>
-		<link rel="stylesheet" href="../styles/main.css"/>
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
-		<meta charset="utf-8" />
-		<meta name="viewport" id="jb-viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-		<meta name="description" content="" />
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- START OPEN GRAPH TAGS-->
 		<meta property="og:title" content="Gallery" />
 		<meta property="og:type" content="website" />
@@ -15,7 +11,9 @@
 		<meta property="og:image" content="" />
 		<meta property="og:description" content="" />
 		<!-- END OPEN GRAPH TAGS-->
-
+		<link href="../styles/main.css" rel="stylesheet">
+		<link href="../styles/nav.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
 		<style type="text/css">
 		body {
 			margin: 0px;
@@ -23,38 +21,60 @@
 			background-color: black;
 		}
 		</style>
+
+
 	</head>
 	<body>
-		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropbtn">Programming</a>
-				<div class="dropdown-content">
-					<a href="https://github.com/dlall915">Github</a>
-					<a href="../programming_current.html">Working On</a>
-				</div>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="dropbtn">Social</a>
-				<div class="dropdown-content">
-					<a href="../contact.html">Contact Me</a>
-					<a href="https://www.instagram.com/sharp_blade430/">Instagram</a>
-				</div>
-			</li>
-			<li class="dropdown" style="float:right">
-				<a href="#" class="dropbtn">Fitness</a>
-				<div class="dropdown-content">
-					<a href="../fitness_videos.html">Videos</a>
-					<a href="../fitness_resources.html">Resources</a>
-				</div>
-			</li>
-			<li class="dropdown" style="float:right">
-				<a href="#" class="dropbtn">Photography</a>
-				<div class="dropdown-content">
-					<a href="juicebox_gallery/photography_gallery.html">Gallery</a>
-				</div>
-			</li>
-		</ul>
+		<div class="wrapper">
+			<div class="main">
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><a href="../index.html">Home</a></li>
+						<li class="nav-item"><a href="../programming_current.html">Programming</a></li>
+						<li class="nav-item"><a href="../contact.html">Contact</a></li>
+						<li class="nav-item"><a href="../juicebox_gallery/photography_gallery.html">Photography</a></li>
+						<li class="nav-item"><a href="../fitness_videos.html">Fitness</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<script>
+			(function () {
+
+				// Create mobile element
+				var mobile = document.createElement('div');
+				mobile.className = 'nav-mobile';
+				document.querySelector('.nav').appendChild(mobile);
+
+				// hasClass
+				function hasClass(elem, className) {
+					return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+				}
+
+				// toggleClass
+				function toggleClass(elem, className) {
+					var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+					if (hasClass(elem, className)) {
+						while (newClass.indexOf(' ' + className + ' ') >= 0) {
+							newClass = newClass.replace(' ' + className + ' ', ' ');
+						}
+						elem.className = newClass.replace(/^\s+|\s+$/g, '');
+					} else {
+						elem.className += ' ' + className;
+					}
+				}
+
+				// Mobile nav function
+				var mobileNav = document.querySelector('.nav-mobile');
+				var toggle = document.querySelector('.nav-list');
+				mobileNav.onclick = function () {
+					toggleClass(this, 'nav-mobile-open');
+					toggleClass(toggle, 'nav-active');
+				};
+			})();
+		</script>
+
 		<!--START JUICEBOX EMBED-->
 		<script src="jbcore/juicebox.js"></script>
 		<script>

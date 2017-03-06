@@ -1,3 +1,25 @@
+/*
+	Todd Motto Labs
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+
+*,
+*:after,
+*:before {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
 html {
     height: 100%;
     width: 100%
@@ -11,7 +33,6 @@ body {
 }
 
 h1 {
-    padding-top: 50px;
     font-size: 250%;
     text-align: center;
     text-shadow: 3px 3px #000000;
@@ -49,83 +70,50 @@ p {
     vertical-align: middle;
 }
 
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
 
-
-
-
-
-/* Nagivation bar START */
-ul {
-    position: fixed;
-    list-style-type: none;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #85C1E9;
+.wrapper {
+	max-width:1280px;
+	margin:0 auto;
 }
 
-li {
-    float: left;
+.header {
+	padding:15px 25px;
+	background:#FFF;
+	border-left:5px solid #2BA6CB;
+	overflow:hidden;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    padding: 14px 16px;
-    text-decoration: none;
+.logo {
+	float:left;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #6DB7E8;
+.demo-nav {
+	float:right;
+	margin:12px 0;
+	list-style:none;
 }
 
-li.dropdown {
-    display: inline-block;
+.demo-nav-link {
+
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFAC1C;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
+.demo-nav-link a {
+	color:#2BA6CB;
+	text-decoration:none;
 }
 
-.dropdown-content a {
-    background-color: #FFAC1C;
-    padding: 12px 16px;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ECA01B
-}
-
-.dropdown:hover .dropdown-content {
-    position: fixed;
-    display: block;
-}
-/* Nagivation bar END */
-
-
-
-
-
-/* Contact form START */
+/*------------------------------------*\
+    CONTACT FORM
+\*------------------------------------*/
 
 #contact-form {
     background-color: #85C1E9;
     color: black;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     padding: 20px;
     margin: 50px auto;
     -moz-border-radius: 15px;
@@ -212,13 +200,3 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
 /* Contact form END */
-
-
-
-/* Changes for desktop view */
-
-@media(min-width: 60em) {
-	body {
-	    font-size: 90%
-	}
-}
