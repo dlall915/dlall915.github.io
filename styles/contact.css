@@ -1,0 +1,109 @@
+/*------------------------------------*\
+    CONTACT FORM
+\*------------------------------------*/
+
+.contact {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+}
+
+.contact img {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.contact span {
+    vertical-align: middle;
+}
+
+#contact-form {
+    background-color: #85C1E9;
+    color: black;
+    width: 80%;
+    max-width: 400px;
+    padding: 40px;
+    margin: 50px auto;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    position: relative;
+    text-shadow:none;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    margin-bottom: 2px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    display: block;
+    width: 90%;
+    border: 1px solid #6DB7E8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    background-color: #EBF2F4;
+}
+
+#contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+#contact-form label {
+    display: block;
+}
+
+#contact-form #submit-button {
+    width: 25%;
+    background-color: #FFAC1C;
+    border: none;
+    display: block;
+    float: right;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    -moz-border-radius: 8px;
+}
+
+#contact-form #submit-button:hover {
+    background-color: #ECA01B;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields */
+input:required, textarea:required {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Normalize placeholder styles */
+
+/* Chrome, Safari */
+::-webkit-input-placeholder {
+    color: #CCCCCC;
+    font-style: italic;
+}
+
+/* Mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #CCCCCC;
+    font-style: italic;
+}
+
+/* IE (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  {
+    color: #CCCCCC;
+    font-style: italic;
+}

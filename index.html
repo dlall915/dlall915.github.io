@@ -27,89 +27,21 @@
 			<div class="main">
 				<nav class="nav">
 					<ul class="nav-list">
-						<li class="nav-item"><a href="index.html">Home</a></li>
-						<li class="nav-item"><a href="programming_current.html">Programming</a></li>
-						<li class="nav-item"><a href="contact.html">Contact</a></li>
-						<li class="nav-item"><a href="juicebox_gallery/photography_gallery.html">Photography</a></li>
-						<li class="nav-item"><a href="fitness_videos.html">Fitness</a></li>
+						<li class="nav-item"><a class="a-nav" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="a-nav" href="programming_current.html">Programming</a></li>
+						<li class="nav-item"><a class="a-nav" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="a-nav" href="juicebox_gallery/photography_gallery.html">Photography</a></li>
+						<li class="nav-item"><a class="a-nav" href="fitness_videos.html">Fitness</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 
-		<script>
-		(function () {
-
-		    // Create mobile element
-		    var mobile = document.createElement('div');
-		    mobile.className = 'nav-mobile';
-		    document.querySelector('.nav').appendChild(mobile);
-
-		    // hasClass
-		    function hasClass(elem, className) {
-		        return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-		    }
-
-		    // toggleClass
-		    function toggleClass(elem, className) {
-		        var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
-		        if (hasClass(elem, className)) {
-		            while (newClass.indexOf(' ' + className + ' ') >= 0) {
-		                newClass = newClass.replace(' ' + className + ' ', ' ');
-		            }
-		            elem.className = newClass.replace(/^\s+|\s+$/g, '');
-		        } else {
-		            elem.className += ' ' + className;
-		        }
-		    }
-
-		    // Mobile nav function
-		    var mobileNav = document.querySelector('.nav-mobile');
-		    var toggle = document.querySelector('.nav-list');
-		    mobileNav.onclick = function () {
-		        toggleClass(this, 'nav-mobile-open');
-		        toggleClass(toggle, 'nav-active');
-		    };
-		})();
-		</script>
+		<script type="text/javascript" src="javascript/nav.js"></script>
 
 		<h1> David Lall - under construction! </h1>
 
 		<img class="img-circle" src="img/me.jpg">
-
-
-		<!--
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropbtn">Programming</a>
-				<div class="dropdown-content">
-					<a href="https://github.com/dlall915">Github</a>
-					<a href="programming_current.html">Working On</a>
-				</div>
-			</li>
-			<li class="dropdown">
-				<a href="#" class="dropbtn">Contact</a>
-				<div class="dropdown-content">
-					<a href="contact.html">Contact Me</a>
-					<a href="https://www.instagram.com/sharp_blade430/">Instagram</a>
-				</div>
-			</li>
-			<li class="dropdown" style="float:right">
-				<a href="#" class="dropbtn">Fitness</a>
-				<div class="dropdown-content">
-					<a href="fitness_videos.html">Videos</a>
-					<a href="fitness_resources.html">Resources</a>
-				</div>
-			</li>
-			<li class="dropdown" style="float:right">
-				<a href="#" class="dropbtn">Photography</a>
-				<div class="dropdown-content">
-					<a href="juicebox_gallery/photography_gallery.html">Gallery</a>
-				</div>
-			</li>
-		</ul>
-		-->
 
 	</body>
 </html>

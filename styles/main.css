@@ -1,8 +1,3 @@
-/*
-	Todd Motto Labs
-	URL: www.toddmotto.com
-*/
-
 /*------------------------------------*\
     RESET
 \*------------------------------------*/
@@ -30,19 +25,22 @@ body {
     font-family: "Ubuntu";
     font-size: 16px;
     color: white;
+    text-shadow:1px 1px #000000;
 }
 
 h1 {
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     font-size:250%;
     text-align:center;
     text-shadow:3px 3px #000000;
 }
 
+/* only used in contact, create a class and move there */
 h2 {
     font-size:150%;
     text-align:center;
+    margin-bottom:10px;
 }
 
 label {
@@ -57,156 +55,23 @@ p {
     font-size:120%;
 }
 
+a {
+    color: inherit;
+}
+
+.a-contact {
+    text-decoration: underline;
+}
+
 .img-circle {
     display: block;
     margin: 0 auto;
     border-radius:50%;
-    width: 25%;
+    width: 30%;
     max-width:200px;
 }
-
-.contact {
-    margin: 0 auto;
-    width: auto;
-    text-align: center;
-}
-
-.contact img {
-    vertical-align: middle;
-    padding-right: 20px;
-}
-
-.contact span {
-    vertical-align: middle;
-}
-
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
 
 .wrapper {
 	max-width:1280px;
 	margin:0 auto;
 }
-
-.header {
-	padding:15px 25px;
-	background:#FFF;
-	border-left:5px solid #2BA6CB;
-	overflow:hidden;
-}
-
-.logo {
-	float:left;
-}
-
-.demo-nav {
-	float:right;
-	margin:12px 0;
-	list-style:none;
-}
-
-.demo-nav-link {
-
-}
-
-.demo-nav-link a {
-	color:#2BA6CB;
-	text-decoration:none;
-}
-
-/*------------------------------------*\
-    CONTACT FORM
-\*------------------------------------*/
-
-#contact-form {
-    background-color: #85C1E9;
-    color: black;
-    width: 80%;
-    max-width: 400px;
-    padding: 20px;
-    margin: 50px auto;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    position: relative;
-}
-
-#contact-form input,
-#contact-form select,
-#contact-form textarea,
-#contact-form label {
-    margin-bottom: 2px;
-}
-
-#contact-form input,
-#contact-form select,
-#contact-form textarea {
-    display: block;
-    width: 90%;
-    border: 1px solid #6DB7E8;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding: 4px;
-}
-
-#contact-form input:focus,
-#contact-form select:focus,
-#contact-form textarea:focus {
-    background-color: #EBF2F4;
-}
-
-#contact-form textarea {
-    height: 150px;
-    resize: none;
-}
-
-#contact-form label {
-    display: block;
-}
-
-#contact-form #submit-button {
-    width: 25%;
-    background-color: #FFAC1C;
-    border: none;
-    display: block;
-    float: right;
-    margin-bottom: 0px;
-    margin-right: 6px;
-    -moz-border-radius: 8px;
-}
-
-#contact-form #submit-button:hover {
-    background-color: #ECA01B;
-}
-
-/* Remove box shadow firefox, chrome and opera put around required fields */
-input:required, textarea:required {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    -o-box-shadow: none;
-    box-shadow: none;
-}
-
-/* Normalize placeholder styles */
-
-/* Chrome, Safari */
-::-webkit-input-placeholder {
-    color: #CCCCCC;
-    font-style: italic;
-}
-
-/* Mozilla */
-input:-moz-placeholder, textarea:-moz-placeholder {
-    color: #CCCCCC;
-    font-style: italic;
-}
-
-/* IE (faux placeholder) */
-input.placeholder-text, textarea.placeholder-text  {
-    color: #CCCCCC;
-    font-style: italic;
-}
-
-/* Contact form END */

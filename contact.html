@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/main.css" rel="stylesheet">
         <link href="styles/nav.css" rel="stylesheet">
+        <link href="styles/contact.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
         <style type="text/css">
 		body {
@@ -24,69 +25,36 @@
 
     </head>
     <body>
+
         <div class="wrapper">
             <div class="main">
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="index.html">Home</a></li>
-                        <li class="nav-item"><a href="programming_current.html">Programming</a></li>
-                        <li class="nav-item"><a href="contact.html">Contact</a></li>
-                        <li class="nav-item"><a href="juicebox_gallery/photography_gallery.html">Photography</a></li>
-                        <li class="nav-item"><a href="fitness_videos.html">Fitness</a></li>
+                        <li class="nav-item"><a class="a-nav" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="a-nav" href="programming_current.html">Programming</a></li>
+                        <li class="nav-item"><a class="a-nav" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="a-nav" href="juicebox_gallery/photography_gallery.html">Photography</a></li>
+                        <li class="nav-item"><a class="a-nav" href="fitness_videos.html">Fitness</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
 
-        <script>
-            (function () {
-
-                // Create mobile element
-                var mobile = document.createElement('div');
-                mobile.className = 'nav-mobile';
-                document.querySelector('.nav').appendChild(mobile);
-
-                // hasClass
-                function hasClass(elem, className) {
-                    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-                }
-
-                // toggleClass
-                function toggleClass(elem, className) {
-                    var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
-                    if (hasClass(elem, className)) {
-                        while (newClass.indexOf(' ' + className + ' ') >= 0) {
-                            newClass = newClass.replace(' ' + className + ' ', ' ');
-                        }
-                        elem.className = newClass.replace(/^\s+|\s+$/g, '');
-                    } else {
-                        elem.className += ' ' + className;
-                    }
-                }
-
-                // Mobile nav function
-                var mobileNav = document.querySelector('.nav-mobile');
-                var toggle = document.querySelector('.nav-list');
-                mobileNav.onclick = function () {
-                    toggleClass(this, 'nav-mobile-open');
-                    toggleClass(toggle, 'nav-active');
-                };
-            })();
-            </script>
+        <script type="text/javascript" src="javascript/nav.js"></script>
 
         <h1>Contact Me</h1>
 
         <div class="contact">
             <p>
-                <img src="img/ic_contact_mail_white_48dp.png">
-                E-mail: david.lall718@gmail.com
+                <img src="img/mail.svg" height="60px" width="60px">
+                E-mail: <a class="a-contact" href="mailto:david.lall718@gmail.com">david.lall718@gmail.com</a>
             </p>
         </div>
 
         <div class="contact">
             <p>
-                <img src="img/ic_contact_phone_white_48dp.png">
-                Phone: 555-555-5555
+                <img src="img/phone.svg" height="60px" width="60px">
+                Phone: <a class="a-contact" href="tel:3474440578">555-555-5555</a>
             </p>
         </div>
 
@@ -106,8 +74,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required="required"></textarea>
 
-                <input type="submit" value="Send E-mail" id="submit-button"/>
-                <p> All fields are required</p>
+                <input type="submit" value="Send" id="submit-button"/>
             </form>
         </div>
     </body>
