@@ -33,18 +33,20 @@ body {
 }
 
 h1 {
-    font-size: 250%;
-    text-align: center;
-    text-shadow: 3px 3px #000000;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size:250%;
+    text-align:center;
+    text-shadow:3px 3px #000000;
 }
 
 h2 {
-    font-size: 150%;
-    text-align: center;
+    font-size:150%;
+    text-align:center;
 }
 
 label {
-    font-size: 120%;
+    font-size:120%;
 }
 
 input {
@@ -52,7 +54,15 @@ input {
 }
 
 p {
-    font-size: 120%;
+    font-size:120%;
+}
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+    border-radius:50%;
+    width: 25%;
+    max-width:200px;
 }
 
 .contact {
