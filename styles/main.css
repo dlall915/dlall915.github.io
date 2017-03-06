@@ -88,6 +88,7 @@ video {
 .video {
     width: 90%;
     max-width: 720px;
+    height: 340px;
     display: block;
     margin: 0 auto;
 }
