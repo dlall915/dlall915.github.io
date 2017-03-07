@@ -65,7 +65,7 @@ ol {
 }
 
 .nav-item a:hover {
-	background:#6DB7E8;     /* Nav hover color */
+	background: linear-gradient(to left, #306BAC, #85C1E9);    /* Nav hover color */
 }
 
 /* Mobile Navigation */
@@ -107,7 +107,7 @@ ol {
 	}
 
 	.nav-item a {
-		background: linear-gradient(to left, #85C1E9, #306BAC);;     /* Mobile nav dropdown color */
+		background: linear-gradient(to left, #85C1E9, #306BAC);     /* Mobile nav dropdown color */
 		padding: 10px;
 	}
 
