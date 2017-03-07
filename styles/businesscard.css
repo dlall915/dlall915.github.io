@@ -1,0 +1,30 @@
+.businesscard {
+  max-width: 600px;
+  position: relative;
+  background: linear-gradient(to left, #306BAC, #85C1E9);
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 80px 1px #212129;
+}
+
+.businesscard .image-wrapper img {
+  width: 225px;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.businesscard .name {
+  font-size: 2.2em;
+}
+
+.businesscard .description {
+  text-transform: uppercase;
+  text-shadow:2px 2px #000000;
+  margin-top: 10px;
+}

@@ -1,18 +1,19 @@
-/*------------------------------------*\
-    RESET
-\*------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 *,
 *:after,
 *:before {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-align: center;
+    text-decoration: none;
 }
 
 html {
@@ -33,7 +34,7 @@ body {
     font-family: "Ubuntu";
     font-size: 16px;
     color: white;
-    text-shadow:1px 1px #000000;
+    text-shadow: 1px 1px #000000;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
     padding-bottom: 4%;
     font-size:250%;
     text-align:center;
-    text-shadow:3px 3px #000000;
+    text-shadow: 3px 3px #000000;
 }
 
 /* only used in contact, create a class and move there */
@@ -49,11 +50,11 @@ h2 {
     font-size: 150%;
     text-align: center;
     margin-bottom: 10px;
-    text-shadow:2px 2px #000000;
+    text-shadow: 2px 2px #000000;
 }
 
 label {
-    font-size:120%;
+    font-size: 120%;
 }
 
 input {
@@ -61,7 +62,7 @@ input {
 }
 
 p {
-    font-size:120%;
+    font-size: 120%;
 }
 
 a {
