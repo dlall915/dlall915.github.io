@@ -16,18 +16,18 @@ ol {
 }
 
 .main {
-	width:100%;
-	margin-top:20px;
-	text-align:center;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
 }
 
 .content {
-	text-align:left;
-	margin:25px 0;
+	text-align: left;
+	margin: 25px 0;
 }
 
 .content-text {
-	margin:0 0 15px;
+	margin: 0 0 15px;
 }
 
 /* Navigation styling */
@@ -57,11 +57,11 @@ ol {
 }
 
 .nav-item:first-child a {
-	border-radius:5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
 }
 
 .nav-item:last-child a {
-	border-radius:0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
 }
 
 .nav-item a:hover {
@@ -70,17 +70,17 @@ ol {
 
 /* Mobile Navigation */
 .nav-mobile {
-	display:none; /* Hide from browsers that don't support media queries */
-	cursor:pointer;
-	position:absolute;
-	top:0;
-	right:0;
-	background:#85C1E9 url(../img/nav.svg) no-repeat center center;     /* Mobile nav color */
-	height:40px;
-	width:40px;
-	border-radius:5px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
+	display: none; /* Hide from browsers that don't support media queries */
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #85C1E9 url(../img/nav.svg) no-repeat center center;     /* Mobile nav color */
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 /*------------------------------------*\
