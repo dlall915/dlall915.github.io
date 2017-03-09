@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/auchenai_soulpriest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/darkshire_alchemist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/holy_nova.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/northshire_cleric.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/power_word_shield.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/power_word_tentacles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/shadow_madness.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/shadow_word_death.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cards/shadow_word_pain.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdecks/arenatopdecks.html" afterPath="$PROJECT_DIR$/arenatopdecks/arenatopdecks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdecks/classes/priest.html" afterPath="$PROJECT_DIR$/arenatopdecks/classes/priest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards/kabal_talonpriest.html" afterPath="$PROJECT_DIR$/cards/kabal_talonpriest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interests.html" afterPath="$PROJECT_DIR$/interests.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/cards.css" afterPath="$PROJECT_DIR$/styles/cards.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,14 +21,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="priest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="priest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdecks/classes/priest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="95" column="93" lean-forward="false" selection-start-line="95" selection-start-column="93" selection-end-line="95" selection-end-column="93" />
+            <state relative-caret-position="119">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="112" />
               <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cards.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/cards.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/cards/shadow_madness.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -78,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/cards/shadow_word_death.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -114,26 +113,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arenatopdecks.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="arenatopdecks.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arenatopdecks/arenatopdecks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dragonfire_potion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cards/dragonfire_potion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="115" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,12 +201,10 @@
         <option value="$PROJECT_DIR$/cards/kabal_songstealer.html" />
         <option value="$PROJECT_DIR$/cards/potion_of_madness.html" />
         <option value="$PROJECT_DIR$/cards/dragonfire_potion.html" />
-        <option value="$PROJECT_DIR$/styles/cards.css" />
         <option value="$PROJECT_DIR$/cards/kabal_talonpriest.html" />
         <option value="$PROJECT_DIR$/cards/northshire_cleric.html" />
         <option value="$PROJECT_DIR$/cards/power_word_shield.html" />
         <option value="$PROJECT_DIR$/interests.html" />
-        <option value="$PROJECT_DIR$/arenatopdecks/arenatopdecks.html" />
         <option value="$PROJECT_DIR$/cards/shadow_word_pain.html" />
         <option value="$PROJECT_DIR$/cards/auchenai_soulpriest.html" />
         <option value="$PROJECT_DIR$/cards/shadow_madness.html" />
@@ -226,11 +213,13 @@
         <option value="$PROJECT_DIR$/cards/holy_nova.html" />
         <option value="$PROJECT_DIR$/cards/power_word_tentacles.html" />
         <option value="$PROJECT_DIR$/arenatopdecks/classes/priest.html" />
+        <option value="$PROJECT_DIR$/styles/cards.css" />
+        <option value="$PROJECT_DIR$/arenatopdecks/arenatopdecks.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+    <option name="x" value="1262" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -252,9 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,6 +315,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,7 +571,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="1262" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -721,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,15 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="80" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/cards.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="53" lean-forward="false" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="61" column="51" lean-forward="false" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,18 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdecks/arenatopdecks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cards/shadow_word_pain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -853,18 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cards/auchenai_soulpriest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cards/shadow_madness.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -880,7 +825,7 @@
     <entry file="file://$PROJECT_DIR$/cards/shadow_word_death.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -901,12 +846,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cards/auchenai_soulpriest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/cards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdecks/classes/priest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="95" column="93" lean-forward="false" selection-start-line="95" selection-start-column="93" selection-end-line="95" selection-end-column="93" />
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="112" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdecks/arenatopdecks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

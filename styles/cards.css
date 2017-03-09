@@ -1,5 +1,5 @@
 html,body {
-    height: 100%
+    height: 100%;
 }
 
 body {
@@ -14,10 +14,6 @@ table {
     margin-bottom: 20px;
 }
 
-table a {
-    text-decoration: underline;
-}
-
 td, th {
     border: 1px solid #DDDDDD;
     text-align: left;
@@ -25,13 +21,13 @@ td, th {
 }
 
 .row {
-    margin: 0
+    margin: 0;
 }
 
 .no-padding {
-    padding: 0
+    padding: 0;
 }
 
 .center {
-    margin: 0 auto
+    margin: 0 auto;
 }
