@@ -1,0 +1,56 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css");
+@import url("animations.css");
+
+html,body {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+hr.divider {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+hr.divider:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #DDDDDD;
+    text-align: left;
+    padding: 8px;
+}
+
+.row {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -moz-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
