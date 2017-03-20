@@ -2,28 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/ancient_of_war.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/bite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/druid_of_the_claw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/feral_rage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/living_roots.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_the_wild.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_yshaarj.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mulch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/naturalize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/savage_combatant.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/starfall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/starfire.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/swipe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/wrath.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/classes/druid_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/css/animations.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arenatopdeck/css/cards.css" afterPath="$PROJECT_DIR$/arenatopdeck/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arathi_weaponsmith.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/bash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/battle_rage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/brass_knuckles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/brawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/cleave.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/cruel_taskmaster.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/execute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fierce_monkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fiery_war_axe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fools_bane.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/frothing_berserker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/gorehowl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/heroic_strike.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/inner_rage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/kings_defender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/korkron_elite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mortal_strike.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/obsidian_destroyer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/ravaging_ghoul.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/revenge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/slam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/sparring_partner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/upgrade.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/cards/whirlwind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/classes/neutral_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/classes/warrior_cards.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/classes/warrior_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/js/google_analytics.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/arenatopdeck.html" afterPath="$PROJECT_DIR$/arenatopdeck/arenatopdeck.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/abyssal_enforcer.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/abyssal_enforcer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/aldor_peacekeeper.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/aldor_peacekeeper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/ancient_of_war.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/ancient_of_war.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_blast.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_blast.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_explosion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_explosion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_shot.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_shot.html" />
@@ -35,6 +49,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/backstab.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/backstab.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/bane_of_doom.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/bane_of_doom.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/betrayal.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/betrayal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/bite.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/bite.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/blastcrystal_potion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/blastcrystal_potion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/blessing_of_kings.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/blessing_of_kings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/blessing_of_might.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/blessing_of_might.html" />
@@ -64,6 +79,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/dragons_breath.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/dragons_breath.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/drain_life.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/drain_life.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/dread_infernal.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/dread_infernal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/druid_of_the_claw.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/druid_of_the_claw.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/eaglehorn_bow.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/eaglehorn_bow.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/earth_elemental.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/earth_elemental.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/earth_shock.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/earth_shock.html" />
@@ -76,6 +92,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/explosive_shot.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/explosive_shot.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/fan_of_knives.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fan_of_knives.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/felfire_potion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/felfire_potion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/feral_rage.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/feral_rage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/feral_spirit.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/feral_spirit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/fire_elemental.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fire_elemental.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/fireball.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/fireball.html" />
@@ -117,12 +134,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/lightning_bolt.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/lightning_bolt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/lightning_storm.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/lightning_storm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/lights_justice.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/lights_justice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/living_roots.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/living_roots.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/maelstrom_portal.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/maelstrom_portal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_the_wild.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_the_wild.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_yshaarj.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mark_of_yshaarj.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/master_of_evolution.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/master_of_evolution.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/medivhs_valet.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/medivhs_valet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/mind_control.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mind_control.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/mortal_coil.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mortal_coil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/mulch.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/mulch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/multishot.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/multishot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/naturalize.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/naturalize.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/northshire_cleric.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/northshire_cleric.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/on_the_hunt.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/on_the_hunt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/perditions_blade.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/perditions_blade.html" />
@@ -138,6 +160,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/ram_wrangler.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/ram_wrangler.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/rockbiter.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/rockbiter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/sap.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/sap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/savage_combatant.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/savage_combatant.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/seal_of_champions.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/seal_of_champions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/shado_pan_rider.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/shado_pan_rider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/shadow_bolt.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/shadow_bolt.html" />
@@ -152,7 +175,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/siphon_soul.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/siphon_soul.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/soulfire.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/soulfire.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/stablemaster.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/stablemaster.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/starfall.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/starfall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/starfire.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/starfire.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/stormforged_axe.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/stormforged_axe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/swipe.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/swipe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/temple_enforcer.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/temple_enforcer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/thunder_bluff_valiant.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/thunder_bluff_valiant.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/truesilver_champion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/truesilver_champion.html" />
@@ -161,6 +187,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/unleash_the_hounds.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/unleash_the_hounds.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/volcanic_potion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/volcanic_potion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/warhorse_trainer.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/warhorse_trainer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/wrath.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/wrath.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/druid_list.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/druid_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/hunter_cards.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/hunter_cards.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/hunter_list.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/hunter_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/mage_cards.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/mage_cards.html" />
@@ -175,6 +204,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html" afterPath="$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.html" afterPath="$PROJECT_DIR$/projects.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,101 +220,101 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="priest_cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/priest_cards.html">
+      <file leaf-file-name="arenatopdeck.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/arenatopdeck.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="561">
+              <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/css/style.css">
+      <file leaf-file-name="neutral_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/neutral_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rogue_cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/rogue_cards.html">
+      <file leaf-file-name="korkron_elite.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/korkron_elite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="114" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shaman_cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/shaman_cards.html">
+      <file leaf-file-name="mortal_strike.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/mortal_strike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="priest_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/priest_list.html">
+      <file leaf-file-name="alley_armorsmith.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rogue_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/rogue_list.html">
+      <file leaf-file-name="arcanite_reaper.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shaman_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html">
+      <file leaf-file-name="brawl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/brawl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="warlock_cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html">
+      <file leaf-file-name="fools_bane.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/fools_bane.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="warlock_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html">
+      <file leaf-file-name="gorehowl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/gorehowl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animations.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/css/animations.css">
+      <file leaf-file-name="obsidian_destroyer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/obsidian_destroyer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="219" column="56" lean-forward="false" selection-start-line="219" selection-start-column="56" selection-end-line="219" selection-end-column="56" />
+            <state relative-caret-position="209">
+              <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -339,20 +369,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/quick_shot.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/rallying_blade.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/ram_wrangler.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/rockbiter.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/sap.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/savage_combatant.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/seal_of_champions.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shado_pan_rider.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadow_bolt.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadow_madness.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadow_strike.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadow_word_death.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadow_word_pain.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/shadowflame.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/shiv.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/si7_agent.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/silvermoon_portal.html" />
@@ -368,28 +384,42 @@
         <option value="$PROJECT_DIR$/arenatopdeck/cards/truesilver_champion.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/twilight_flamecaller.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/twisting_nether.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/unleash_the_hounds.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/volcanic_potion.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/unleash_the_hounds.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/warhorse_trainer.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/wrath.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/druid_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/hunter_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/hunter_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/mage_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/mage_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/paladin_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/paladin_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/priest_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/priest_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/rogue_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/rogue_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/shaman_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/css/style.css" />
-        <option value="$PROJECT_DIR$/arenatopdeck/css/animations.css" />
+        <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/classes/warrior_cards.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/inner_rage.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/classes/warrior_list.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/upgrade.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/whirlwind.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/battle_rage.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/cleave.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/cruel_taskmaster.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/fiery_war_axe.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/revenge.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/slam.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/heroic_strike.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/execute.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/fierce_monkey.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/bash.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/sparring_partner.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/frothing_berserker.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/kings_defender.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/ravaging_ghoul.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/arathi_weaponsmith.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/brass_knuckles.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/krokron_elite.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/brawl.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/fools_bane.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/gorehowl.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/obsidian_destroyer.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/cards/mortal_strike.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/arenatopdeck.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/classes/neutral_list.html" />
       </list>
     </option>
   </component>
@@ -471,6 +501,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dlall915.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dlall915.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenatopdeck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -532,8 +580,8 @@
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\arenatopdeck\cards" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\arenatopdeck\classes" />
+      <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\arenatopdeck\cards" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\arenatopdeck\css" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\cards" />
       <recent name="C:\Users\David\Documents\GitHub\dlall915.github.io\arenatopdecks\classes" />
@@ -809,410 +857,410 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/quick_shot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/rallying_blade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/ram_wrangler.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/rockbiter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/sap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/savage_combatant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/seal_of_champions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shado_pan_rider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadow_bolt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadow_madness.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadow_strike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadow_word_death.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadow_word_pain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shadowflame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/shiv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/si7_agent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/silvermoon_portal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/siphon_soul.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/soulfire.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/stablemaster.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/starfall.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/starfire.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/stormforged_axe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/swipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/temple_enforcer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/thunder_bluff_valiant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/truesilver_champion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/twilight_flamecaller.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/twisting_nether.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/unleash_the_hounds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/volcanic_potion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/warhorse_trainer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/wrath.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html">
+    <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="612">
+          <caret line="51" column="62" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/druid_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warrior_cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="1039">
+          <caret line="180" column="55" lean-forward="false" selection-start-line="180" selection-start-column="55" selection-end-line="180" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/hunter_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warrior_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="629">
+          <caret line="40" column="68" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/hunter_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/seal_of_champions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="918">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="68" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/mage_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/inner_rage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="340">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/mage_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/upgrade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/paladin_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/whirlwind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="391">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/paladin_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/battle_rage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/priest_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/cleave.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/priest_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/cruel_taskmaster.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/rogue_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/execute.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/rogue_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/fiery_war_axe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/shaman_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/heroic_strike.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/revenge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="340">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/slam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/sparring_partner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/css/style.css">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/bash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/fierce_monkey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="219" column="56" lean-forward="false" selection-start-line="219" selection-start-column="56" selection-end-line="219" selection-end-column="56" />
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/frothing_berserker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/kings_defender.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/ravaging_ghoul.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/arathi_weaponsmith.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/brass_knuckles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/korkron_elite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="114" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/mortal_strike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/brawl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/fools_bane.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/gorehowl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/obsidian_destroyer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="113" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/arenatopdeck.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/classes/neutral_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding />
         </state>
       </provider>
