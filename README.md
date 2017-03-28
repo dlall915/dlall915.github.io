@@ -1,3 +1,3 @@
 # dlall915.github.io
 
-My website/nutrition app.
+My personal website. Also contains the files for my nutrition app project and [my other website](http://arenatopdeck.com).
