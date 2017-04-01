@@ -4,19 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Search</title>
         <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/google_analytics.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <!-- GOOGLE ANALYTICS -->
-        <script>
-            (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-93348250-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-        <!-- GOOGLE ANALYTICS -->
+        <script src="js/search_input_list.js"></script>
     </head>
     <body>
         <!-- NAVIGATION -->
@@ -27,7 +18,12 @@
         <div class="container">
             <div style="margin-bottom: 50px;">
                 <div>
-                    <h2 style="margin-bottom: 30px;">Search</h2>
+                    <h2>Search</h2>
+                    <p>Updated for Journey to Un'Goro and the standard rotation. I wasn't sure what to include since
+                        we don't know the new meta yet so the list might be a bit weird.</p>
+                    <p>You can also search like this <strong>"druid, common, beast"</strong> to bring up everything
+                        sharing all those properties.</p>
+                    <p>Much more user friendly checkbox/dropdown menu coming soon.</p>
                     <input type="text" name="search_text" id="search_text" placeholder="Search (name, type, etc...)"
                            class="form-control"/>
                     <div style="margin-top: 25px">
@@ -38,34 +34,5 @@
             </div>
             <div id="result"></div>
         </div>
-
-        <script>
-            $(document).ready(function(){
-
-                load_data();
-
-                function load_data(query) {
-                    $.ajax({
-                        url:"fetch_list.php",
-                        method:"POST",
-                        data:{query:query},
-                        success:function(data) {
-                            $('#result').html(data);
-                        }
-                    });
-                }
-
-                $('#search_text').keyup(function(){
-                    var search = $(this).val();
-                    if(search != '') {
-                        load_data(search);
-                    }
-                    else {
-                        load_data();
-                    }
-                });
-            });
-        </script>
-
     </body>
 </html>

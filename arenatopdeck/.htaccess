@@ -1,0 +1,13 @@
+# Removes the .html extension
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Disable directory listings in this directory and subdirectories
+# This will hide the files from the public unless they know direct URLs
+Options -Indexes
