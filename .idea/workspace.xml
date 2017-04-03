@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/filter_cards.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/js/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/search_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/search_test.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/druid_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/druid_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/hunter_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/hunter_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/mage_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/mage_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/neutral_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/neutral_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/paladin_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/paladin_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/priest_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/priest_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/rogue_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/rogue_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/shaman_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/shaman_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warlock_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warlock_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warrior_cards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arenatopdeck/classes/warrior_list.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/class_filter_list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/filter_cards.php" afterPath="$PROJECT_DIR$/arenatopdeck/filter_cards.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/filter_list.php" afterPath="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/index.html" afterPath="$PROJECT_DIR$/arenatopdeck/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php" afterPath="$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/php/fetch_list.php" afterPath="$PROJECT_DIR$/arenatopdeck/php/fetch_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/search_cards.html" afterPath="$PROJECT_DIR$/arenatopdeck/search_cards.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/search_list.html" afterPath="$PROJECT_DIR$/arenatopdeck/search_list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,26 +24,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/search_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_input_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/js/search_input_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,8 +37,8 @@
       <file leaf-file-name="search_test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/search_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <marker date="1491255694000" expanded="true" signature="622:674" ph="SELECT * FRO... arenatopdeck" />
                 <marker date="1491255694000" expanded="true" signature="729:888" ph="..." />
@@ -95,25 +51,54 @@
       <file leaf-file-name="filter_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="67" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="629">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1491259652584" expanded="true" signature="185:245" ph="..." />
-                <marker date="1491259652584" expanded="true" signature="1586:1642" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491259652584" expanded="true" signature="1586:1690" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491259652584" expanded="true" signature="1801:2072" ph="..." />
-                <marker date="1491259652584" expanded="true" signature="1830:2072" ph="..." />
+                <marker date="1491262529614" expanded="true" signature="185:245" ph="..." />
+                <marker date="1491262529614" expanded="true" signature="1805:1851" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262529614" expanded="true" signature="2743:3014" ph="..." />
+                <marker date="1491262529614" expanded="true" signature="2772:3014" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_filter_list.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1491262794524" expanded="true" signature="1502:1606" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262794524" expanded="true" signature="1712:1983" ph="..." />
+                <marker date="1491262794524" expanded="true" signature="1741:1983" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_filter_cards.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_cards.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1491262790899" expanded="true" signature="1522:1626" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262790899" expanded="true" signature="1804:2160" ph="..." />
+                <marker date="1491262790899" expanded="true" signature="1877:2125" ph="..." />
+                <marker date="1491262790899" expanded="true" signature="1951:2088" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -123,18 +108,18 @@
         <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_cards.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <caret line="28" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1491260205462" expanded="true" signature="1606:1710" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491260205462" expanded="true" signature="1897:1944" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="1897:1945" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="1897:2254" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="1970:2218" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="1970:2254" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="2044:2150" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="2044:2151" ph="..." />
-                <marker date="1491260205462" expanded="true" signature="2044:2181" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="1608:1712" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491261751985" expanded="true" signature="1901:1948" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="1901:1949" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="1901:2258" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="1974:2222" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="1974:2258" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="2048:2154" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="2048:2155" ph="..." />
+                <marker date="1491261751985" expanded="true" signature="2048:2185" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,16 +128,16 @@
       <file leaf-file-name="fetch_cards.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="493">
+              <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <marker date="1491254383667" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491254383667" expanded="true" signature="1434:1533" ph="SELECT * FRO... arenatopdeck_archive" />
-                <marker date="1491254383667" expanded="true" signature="1842:1903" ph="..." />
-                <marker date="1491254383667" expanded="true" signature="1898:1903" ph="..." />
-                <marker date="1491254383667" expanded="true" signature="2033:2312" ph="..." />
-                <marker date="1491254383667" expanded="true" signature="2091:2289" ph="..." />
-                <marker date="1491254383667" expanded="true" signature="2144:2264" ph="..." />
+                <marker date="1491262422884" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262422884" expanded="true" signature="1442:1541" ph="SELECT * FRO... arenatopdeck_archive" />
+                <marker date="1491262422884" expanded="true" signature="1822:1883" ph="..." />
+                <marker date="1491262422884" expanded="true" signature="1878:1883" ph="..." />
+                <marker date="1491262422884" expanded="true" signature="2013:2292" ph="..." />
+                <marker date="1491262422884" expanded="true" signature="2071:2269" ph="..." />
+                <marker date="1491262422884" expanded="true" signature="2124:2244" ph="..." />
               </folding>
             </state>
           </provider>
@@ -161,16 +146,16 @@
       <file leaf-file-name="fetch_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/php/fetch_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="27" />
+            <state relative-caret-position="493">
+              <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
-                <marker date="1491257201039" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491257201039" expanded="true" signature="1434:1489" ph="SELECT * FRO... arenatopdeck" />
-                <marker date="1491257201039" expanded="true" signature="1825:2135" ph="..." />
-                <marker date="1491257201039" expanded="true" signature="1861:2135" ph="..." />
-                <marker date="1491257201039" expanded="true" signature="1881:2135" ph="..." />
-                <marker date="1491257201039" expanded="true" signature="1902:2130" ph="..." />
-                <marker date="1491257201039" expanded="true" signature="2227:2568" ph="..." />
+                <marker date="1491262407976" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262407976" expanded="true" signature="1442:1497" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262407976" expanded="true" signature="1805:2115" ph="..." />
+                <marker date="1491262407976" expanded="true" signature="1841:2115" ph="..." />
+                <marker date="1491262407976" expanded="true" signature="1861:2115" ph="..." />
+                <marker date="1491262407976" expanded="true" signature="1882:2110" ph="..." />
+                <marker date="1491262407976" expanded="true" signature="2207:2548" ph="..." />
               </folding>
             </state>
           </provider>
@@ -257,8 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/razorpetal_volley.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/evenom.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/hot_spring_guardian.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/igneous_elemental.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/mana_bind.html" />
@@ -296,18 +279,20 @@
         <option value="$PROJECT_DIR$/arenatopdeck/cards/primordial_drake.html" />
         <option value="$PROJECT_DIR$/search_test.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/search_list.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/php/search_test.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/js/search.js" />
         <option value="$PROJECT_DIR$/arenatopdeck/search_cards.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/search_test.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/php/fetch_list.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/search_test.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/filter.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/filter.php" />
-        <option value="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/filter_cards.php" />
+        <option value="$PROJECT_DIR$/arenatopdeck/php/fetch_list.php" />
+        <option value="$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php" />
+        <option value="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/index.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/class_cards_filter.php" />
+        <option value="$PROJECT_DIR$/arenatopdeck/class_filter_list.php" />
       </list>
     </option>
   </component>
@@ -382,6 +367,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dlall915.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dlall915.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arenatopdeck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -882,15 +885,16 @@
       <workItem from="1491022871193" duration="438000" />
       <workItem from="1491023420453" duration="2565000" />
       <workItem from="1491025998917" duration="112000" />
-      <workItem from="1491243561372" duration="10809000" />
+      <workItem from="1491243561372" duration="13150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55972000" />
+    <option name="totallyTimeSpent" value="58313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -907,7 +911,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25273865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25273865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -939,30 +943,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/razorpetal_volley.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/envenom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/hot_spring_guardian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/igneous_elemental.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -1291,18 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/search_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <marker date="1491255694000" expanded="true" signature="622:674" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491255694000" expanded="true" signature="729:888" ph="..." />
-            <marker date="1491255694000" expanded="true" signature="742:888" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/search_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -1313,49 +1281,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/search_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <marker date="1491254383667" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491254383667" expanded="true" signature="1434:1533" ph="SELECT * FRO... arenatopdeck_archive" />
-            <marker date="1491254383667" expanded="true" signature="1842:1903" ph="..." />
-            <marker date="1491254383667" expanded="true" signature="1898:1903" ph="..." />
-            <marker date="1491254383667" expanded="true" signature="2033:2312" ph="..." />
-            <marker date="1491254383667" expanded="true" signature="2091:2289" ph="..." />
-            <marker date="1491254383667" expanded="true" signature="2144:2264" ph="..." />
+            <marker date="1491255694000" expanded="true" signature="622:674" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491255694000" expanded="true" signature="729:888" ph="..." />
+            <marker date="1491255694000" expanded="true" signature="742:888" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/php/fetch_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="27" />
+        <state relative-caret-position="493">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
-            <marker date="1491257201039" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491257201039" expanded="true" signature="1434:1489" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491257201039" expanded="true" signature="1825:2135" ph="..." />
-            <marker date="1491257201039" expanded="true" signature="1861:2135" ph="..." />
-            <marker date="1491257201039" expanded="true" signature="1881:2135" ph="..." />
-            <marker date="1491257201039" expanded="true" signature="1902:2130" ph="..." />
-            <marker date="1491257201039" expanded="true" signature="2227:2568" ph="..." />
+            <marker date="1491262407976" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262407976" expanded="true" signature="1442:1497" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262407976" expanded="true" signature="1805:2115" ph="..." />
+            <marker date="1491262407976" expanded="true" signature="1841:2115" ph="..." />
+            <marker date="1491262407976" expanded="true" signature="1861:2115" ph="..." />
+            <marker date="1491262407976" expanded="true" signature="1882:2110" ph="..." />
+            <marker date="1491262407976" expanded="true" signature="2207:2548" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_list.php">
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/php/fetch_cards.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="67" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state relative-caret-position="493">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491259652584" expanded="true" signature="185:245" ph="..." />
-            <marker date="1491259652584" expanded="true" signature="1586:1642" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491259652584" expanded="true" signature="1586:1690" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491259652584" expanded="true" signature="1801:2072" ph="..." />
-            <marker date="1491259652584" expanded="true" signature="1830:2072" ph="..." />
+            <marker date="1491262422884" expanded="true" signature="749:795" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262422884" expanded="true" signature="1442:1541" ph="SELECT * FRO... arenatopdeck_archive" />
+            <marker date="1491262422884" expanded="true" signature="1822:1883" ph="..." />
+            <marker date="1491262422884" expanded="true" signature="1878:1883" ph="..." />
+            <marker date="1491262422884" expanded="true" signature="2013:2292" ph="..." />
+            <marker date="1491262422884" expanded="true" signature="2071:2269" ph="..." />
+            <marker date="1491262422884" expanded="true" signature="2124:2244" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1363,18 +1328,32 @@
     <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_cards.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <caret line="28" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491260205462" expanded="true" signature="1606:1710" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491260205462" expanded="true" signature="1897:1944" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="1897:1945" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="1897:2254" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="1970:2218" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="1970:2254" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="2044:2150" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="2044:2151" ph="..." />
-            <marker date="1491260205462" expanded="true" signature="2044:2181" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="1608:1712" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491261751985" expanded="true" signature="1901:1948" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="1901:1949" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="1901:2258" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="1974:2222" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="1974:2258" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="2048:2154" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="2048:2155" ph="..." />
+            <marker date="1491261751985" expanded="true" signature="2048:2185" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1491262529614" expanded="true" signature="185:245" ph="..." />
+            <marker date="1491262529614" expanded="true" signature="1805:1851" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262529614" expanded="true" signature="2743:3014" ph="..." />
+            <marker date="1491262529614" expanded="true" signature="2772:3014" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1382,8 +1361,42 @@
     <entry file="file://$PROJECT_DIR$/arenatopdeck/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/class_cards_filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491262790899" expanded="true" signature="1522:1626" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262790899" expanded="true" signature="1804:2160" ph="..." />
+            <marker date="1491262790899" expanded="true" signature="1877:2125" ph="..." />
+            <marker date="1491262790899" expanded="true" signature="1951:2088" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1491262794524" expanded="true" signature="1502:1606" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262794524" expanded="true" signature="1712:1983" ph="..." />
+            <marker date="1491262794524" expanded="true" signature="1741:1983" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

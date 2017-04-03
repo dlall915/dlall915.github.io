@@ -20,6 +20,9 @@
         <div class="col-md-12">
             <div style="margin-bottom: 30px;">
                 <?php
+                /* Get the passed query and parse it into an array */
+                $query_string = $_SERVER['QUERY_STRING'];
+                parse_str($query_string, $filter_array);
                 $class = $_GET['class'];
                 echo "<h2>" . $class . " Cards</h2>
                     <a href=\"filter_list.php?class=" . $class . "\" class=\"btn btn-primary\">List View</a>
@@ -41,9 +44,26 @@
                     exit();
                 }
 
-                $sql="SELECT * FROM arenatopdeck WHERE class LIKE '".$class."'
-                            ORDER BY mana, name";
-                $result = mysqli_query($connect,$sql);
+                $query = '';
+                $query .= "SELECT * FROM arenatopdeck WHERE name LIKE '%'";
+                foreach ($filter_array as &$value) {
+                    $query .= " AND (name LIKE '%".$value."%'
+                    OR class LIKE '%".$value."%'
+                    OR mana LIKE '%".$value."%'
+                    OR type LIKE '%".$value."%'
+                    OR rarity LIKE '%".$value."%'
+                    OR set_name LIKE '%".$value."%'
+                    OR keyword1 LIKE '%".$value."%'
+                    OR keyword2 LIKE '%".$value."%'
+                    OR keyword3 LIKE '%".$value."%'
+                    OR race LIKE '%".$value."%')
+                    ";
+                }
+                // Reset $token since it still references the last element of the array.
+                unset($value);
+                $query .= " ORDER BY mana, name";
+
+                $result = mysqli_query($connect,$query);
 
                 echo "<table class='scale-in-center'>
                         <tr>

@@ -27,6 +27,7 @@ if (isset($_POST["query"])) {
     foreach ($tokens as &$token) {
         $query .= " AND (name LIKE '%".$token."%'
         OR class LIKE '%".$token."%'
+        OR mana LIKE '%".$token."%'
         OR type LIKE '%".$token."%'
         OR rarity LIKE '%".$token."%'
         OR set_name LIKE '%".$token."%'
@@ -38,14 +39,12 @@ if (isset($_POST["query"])) {
     }
     // Reset $token since it still references the last element of the array.
     unset($token);
-    mysqli_close($connect);
     $query .= " ORDER BY mana, name";
 }
 /* Default list, which is everything. */
 else {
     $query = "SELECT * FROM arenatopdeck 
         ORDER BY mana, name";
-    mysqli_close($connect);
 }
 
 $result = mysqli_query($connect, $query);

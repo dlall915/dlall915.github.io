@@ -41,9 +41,9 @@
                     exit();
                 }
 
-                $sql="SELECT * FROM arenatopdeck WHERE class LIKE '".$class."'
+                $query="SELECT * FROM arenatopdeck WHERE class LIKE '".$class."'
                             ORDER BY mana, name";
-                $result = mysqli_query($connect,$sql);
+                $result = mysqli_query($connect,$query);
 
                 while($row = mysqli_fetch_array($result)) {
                     echo "<div class=\"col-md-4 col-sm-6 col-xs-12\">
