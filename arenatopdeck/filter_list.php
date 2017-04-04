@@ -3,11 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php
-    $class = $_GET['class'];
-    echo "<title>Arena Cards - " . $class . "</title>";
-    ?>
     <link rel="stylesheet" href="css/style.css"/>
+    <style>
+        label {
+            display: block;
+            padding-left: 15px;
+            text-indent: -15px;
+        }
+        input[type="checkbox"] {
+            width: 13px;
+            height: 13px;
+            padding: 0;
+            margin:0;
+            vertical-align: bottom;
+            position: relative;
+            top: -1px;
+            *overflow: hidden;
+        }
+    </style>
     <script src="js/google_analytics.js"></script>
 </head>
 <body>
@@ -17,17 +30,51 @@
     </nav>
     <!-- NAVIGATION -->
     <div class="container">
+        <h2>Filters</h2>
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
+                                <h3>Class</h3>
+                                <label><input type="checkbox" name="Druid"/> Druid</label>
+                                <label><input type="checkbox" name="Hunter"/> Hunter</label>
+                                <label><input type="checkbox" name="Mage"/> Mage</label>
+                                <label><input type="checkbox" name="Paladin"/> Paladin</label>
+                                <label><input type="checkbox" name="Priest"/> Priest</label>
+                                <label><input type="checkbox" name="Rogue"/> Rogue</label>
+                                <label><input type="checkbox" name="Shaman"/> Shaman</label>
+                                <label><input type="checkbox" name="Warlock"/> Warlock</label>
+                                <label><input type="checkbox" name="Warrior"/> Warrior</label>
+                                <label><input type="checkbox" name="Neutral"/> Neutral</label>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
+                                <h3>Type</h3>
+                                <label><input type="checkbox" name="Spell"/> Spell</label>
+                                <label><input type="checkbox" name="Minion"/> Minion</label>
+                                <label><input type="checkbox" name="Weapon"/> Weapon</label>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
+                                <h3>Rarity</h3>
+                                <label><input type="checkbox" name="Common"/> Common</label>
+                                <label><input type="checkbox" name="Rare"/> Rare</label>
+                                <label><input type="checkbox" name="Epic"/> Epic</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="col-md-12">
-            <div style="margin-bottom: 30px;">
                 <?php
-                /* Get the passed query and parse it into an array */
+                /* Get the passed query and parse it into an array. */
                 $query_string = $_SERVER['QUERY_STRING'];
                 parse_str($query_string, $filter_array);
-                $class = $_GET['class'];
-                echo "<h2>" . $class . " Cards</h2>
-                    <a href=\"filter_list.php?class=" . $class . "\" class=\"btn btn-primary\">List View</a>
-                    <a href=\"filter_cards.php?class=" . $class . "\" class=\"btn btn-primary\">Card View</a>
-            </div>";
+
 
                 /* DB info. */
                 $host = "card-dev.cv6ut6qndgb2.us-east-1.rds.amazonaws.com";
@@ -35,7 +82,7 @@
                 $user = "David";
                 $password = "arenatopdeck";
 
-                /* Connect to the DB, hide errors form being output to the user. */
+                /* Connect to the DB, hide errors from being output to the user. */
                 mysqli_report(MYSQLI_REPORT_STRICT);
                 try {
                     $connect = mysqli_connect($host, $user, $password, $db);
@@ -44,6 +91,8 @@
                     exit();
                 }
 
+                /* Best implementation I could come up with to return all values from the database that share
+                all the filter terms. */
                 $query = '';
                 $query .= "SELECT * FROM arenatopdeck WHERE name LIKE '%'";
                 foreach ($filter_array as &$value) {
@@ -62,9 +111,9 @@
                 // Reset $token since it still references the last element of the array.
                 unset($value);
                 $query .= " ORDER BY mana, name";
+                $result = mysqli_query($connect, $query);
 
-                $result = mysqli_query($connect,$query);
-
+                /* Output each card as a line of a table. */
                 echo "<table class='scale-in-center'>
                         <tr>
                             <th>Mana</th>
@@ -84,6 +133,7 @@
                     echo "</tr>";
                 }
                 echo "</table>";
+
                 mysqli_close($connect);
                 ?>
             </div>
