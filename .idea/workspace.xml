@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bb3eb7-4681-4010-be01-24a82f367fec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/css/filter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arenatopdeck/dropdown_test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/abyssal_enforcer.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/abyssal_enforcer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/acidic_swamp_ooze.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/acidic_swamp_ooze.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/adaptation.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/adaptation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/air_elemental.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/air_elemental.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/aldor_peacekeeper.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/aldor_peacekeeper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/alley_armorsmith.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/ancient_of_war.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/ancient_of_war.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arathi_weaponsmith.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arathi_weaponsmith.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_blast.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_blast.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_explosion.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_explosion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcane_shot.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcane_shot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/argent_commander.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/argent_commander.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/argent_horserider.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/argent_horserider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/argent_lance.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/argent_lance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/argent_protector.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/argent_protector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/assassinate.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/assassinate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/assassins_blade.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/assassins_blade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/cards/auchenai_soulpriest.html" afterPath="$PROJECT_DIR$/arenatopdeck/cards/auchenai_soulpriest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/filter_list.php" afterPath="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/index.html" afterPath="$PROJECT_DIR$/arenatopdeck/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.html" afterPath="$PROJECT_DIR$/projects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arenatopdeck/css/style.css" afterPath="$PROJECT_DIR$/arenatopdeck/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,31 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arcane_shot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/arcane_shot.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arcanite_reaper.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/arcanite_reaper.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="argent_commander.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/argent_commander.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="69" lean-forward="false" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+            <state relative-caret-position="663">
+              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -82,6 +40,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="class_filter_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding>
+                <marker date="1491262794524" expanded="true" signature="1502:1606" ph="SELECT * FRO... arenatopdeck" />
+                <marker date="1491262794524" expanded="true" signature="1712:1983" ph="..." />
+                <marker date="1491262794524" expanded="true" signature="1741:1983" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="argent_lance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/argent_lance.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arenatopdeck/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -214,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arenatopdeck/cards/volcano.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/meteor.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/ornery_direhorn.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/spikeridged_steed.html" />
@@ -243,7 +227,6 @@
         <option value="$PROJECT_DIR$/arenatopdeck/css/filter.css" />
         <option value="$PROJECT_DIR$/arenatopdeck/filter_list.php" />
         <option value="$PROJECT_DIR$/arenatopdeck/dropdown_test.html" />
-        <option value="$PROJECT_DIR$/arenatopdeck/css/style.css" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/abyssal_enforcer.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/acidic_swamp_ooze.html" />
@@ -265,6 +248,8 @@
         <option value="$PROJECT_DIR$/arenatopdeck/cards/assassins_blade.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/cards/auchenai_soulpriest.html" />
         <option value="$PROJECT_DIR$/arenatopdeck/index.html" />
+        <option value="$PROJECT_DIR$/arenatopdeck/css/style.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -276,9 +261,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -339,24 +325,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dlall915.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dlall915.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arenatopdeck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -859,16 +827,15 @@
       <workItem from="1491023420453" duration="2565000" />
       <workItem from="1491025998917" duration="112000" />
       <workItem from="1491243561372" duration="18128000" />
-      <workItem from="1491316663214" duration="2225000" />
+      <workItem from="1491316663214" duration="2623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65516000" />
+    <option name="totallyTimeSpent" value="65914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -885,7 +852,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25273865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12617187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -917,13 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/explosive_shot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/cards/meteor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -1128,18 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <marker date="1491262794524" expanded="true" signature="1502:1606" ph="SELECT * FRO... arenatopdeck" />
-            <marker date="1491262794524" expanded="true" signature="1712:1983" ph="..." />
-            <marker date="1491262794524" expanded="true" signature="1741:1983" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arenatopdeck/filter_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1157,14 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arenatopdeck/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1336,6 +1276,37 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenatopdeck/class_filter_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <marker date="1491262794524" expanded="true" signature="1502:1606" ph="SELECT * FRO... arenatopdeck" />
+            <marker date="1491262794524" expanded="true" signature="1712:1983" ph="..." />
+            <marker date="1491262794524" expanded="true" signature="1741:1983" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
