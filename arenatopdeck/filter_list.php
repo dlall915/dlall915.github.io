@@ -38,28 +38,33 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
                                 <h3>Class</h3>
-                                <label><input type="checkbox" name="Druid"/> Druid</label>
-                                <label><input type="checkbox" name="Hunter"/> Hunter</label>
-                                <label><input type="checkbox" name="Mage"/> Mage</label>
-                                <label><input type="checkbox" name="Paladin"/> Paladin</label>
-                                <label><input type="checkbox" name="Priest"/> Priest</label>
-                                <label><input type="checkbox" name="Rogue"/> Rogue</label>
-                                <label><input type="checkbox" name="Shaman"/> Shaman</label>
-                                <label><input type="checkbox" name="Warlock"/> Warlock</label>
-                                <label><input type="checkbox" name="Warrior"/> Warrior</label>
-                                <label><input type="checkbox" name="Neutral"/> Neutral</label>
+                                <label><input type="checkbox" name="Druid" id="class"/> Druid</label>
+                                <label><input type="checkbox" name="Hunter" id="class"/> Hunter</label>
+                                <label><input type="checkbox" name="Mage" id="class"/> Mage</label>
+                                <label><input type="checkbox" name="Paladin" id="class"/> Paladin</label>
+                                <label><input type="checkbox" name="Priest" id="class"/> Priest</label>
+                                <label><input type="checkbox" name="Rogue" id="class"/> Rogue</label>
+                                <label><input type="checkbox" name="Shaman" id="class"/> Shaman</label>
+                                <label><input type="checkbox" name="Warlock" id="class"/> Warlock</label>
+                                <label><input type="checkbox" name="Warrior" id="class"/> Warrior</label>
+                                <label><input type="checkbox" name="Neutral" id="class"/> Neutral</label>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
                                 <h3>Type</h3>
-                                <label><input type="checkbox" name="Spell"/> Spell</label>
-                                <label><input type="checkbox" name="Minion"/> Minion</label>
-                                <label><input type="checkbox" name="Weapon"/> Weapon</label>
+                                <label><input type="checkbox" name="Spell" id="type"/> Spell</label>
+                                <label><input type="checkbox" name="Minion" id="type"/> Minion</label>
+                                <label><input type="checkbox" name="Weapon" id="type"/> Weapon</label>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left;">
                                 <h3>Rarity</h3>
-                                <label><input type="checkbox" name="Common"/> Common</label>
-                                <label><input type="checkbox" name="Rare"/> Rare</label>
-                                <label><input type="checkbox" name="Epic"/> Epic</label>
+                                <label><input type="checkbox" name="Common" id="rarity"/> Common</label>
+                                <label><input type="checkbox" name="Rare" id="rarity"/> Rare</label>
+                                <label><input type="checkbox" name="Epic" id="rarity"/> Epic</label>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: left; margin-top: 15px;">
+                            <form onSubmit="return filter();">
+                                <input type="submit" value="Filter">
+                            </form>
                             </div>
                         </div>
                     </div>
@@ -68,13 +73,105 @@
         </div>
     </div>
 
+    <script>
+        function filter()
+        {
+            var allCheckboxes = document.querySelectorAll('input[type=checkbox]');
+            /* JavaScript arrays are dynamic. */
+            var checkedCheckboxes = new Array;
+            var url = "filter_list.php?";
+            /* Checkboxes that are checked are added to the checkedValue array. */
+            var j = 0;
+            for (var i=0; allCheckboxes[i]; i++){
+                if(allCheckboxes[i].checked){
+                    checkedCheckboxes[j] = allCheckboxes[i];
+                    j++;
+                }
+            }
+
+            /* Append each id=name for a PHP query. */
+            for (var i=0; checkedCheckboxes[i]; i++) {
+                url += "&" + checkedCheckboxes[i].id + "=" + checkedCheckboxes[i].name;
+            }
+
+            location.href = url;
+            return false;
+        }
+    </script>
+
     <div class="container">
         <div class="col-md-12">
                 <?php
+                /* TEST BEGIN */
+                /* Supports parsing multiple variables of the same name, ex. type=common, type=rare */
+                function proper_parse_str($str) {
+                    # result array
+                    $arr = array();
+
+                    # split on outer delimiter
+                    $pairs = explode('&', $str);
+
+                    # loop through each pair
+                    foreach ($pairs as $i) {
+                        # split into name and value
+                        list($name,$value) = explode('=', $i, 2);
+
+                        # if name already exists
+                        if( isset($arr[$name]) ) {
+                            # stick multiple values into an array
+                            if( is_array($arr[$name]) ) {
+                                $arr[$name][] = $value;
+                            }
+                            else {
+                                $arr[$name] = array($arr[$name], $value);
+                            }
+                        }
+                        # otherwise, simply stick it in a scalar
+                        else {
+                            $arr[$name] = $value;
+                        }
+                    }
+
+                    # return result array
+                    return $arr;
+                }
+
+                $test = proper_parse_str($_SERVER['QUERY_STRING']);
+                print_r($test);
+                echo '<br>';
+                print_r($test['class']);
+                echo '<br>';
+                print_r($test['rarity']);
+                echo '<br>';
+                echo '<br>';
+                echo '<br>';
+
+                /* Build MySQL query. */
+                $query_test = '';
+                $query_test .= "SELECT * FROM arenatopdeck WHERE name LIKE '%'";
+                foreach ($test as &$value_test) {
+                    echo '<br>';
+                    print_r($value_test);
+                    if (is_array($value_test)) {
+                        echo '<br>';
+                        print_r('true');
+                    }
+                    else {
+                        echo '<br>';
+                        print_r('false');
+                    }
+                }
+                // Reset $token since it still references the last element of the array.
+                unset($value_test);
+                $query_test .= " ORDER BY mana, name";
+
+
+
+                /* TEST END */
+
                 /* Get the passed query and parse it into an array. */
                 $query_string = $_SERVER['QUERY_STRING'];
                 parse_str($query_string, $filter_array);
-
 
                 /* DB info. */
                 $host = "card-dev.cv6ut6qndgb2.us-east-1.rds.amazonaws.com";
@@ -119,6 +216,7 @@
                             <th>Mana</th>
                             <th>Name</th>
                             <th>Class</th>
+                            <th>Type</th>
                             <th>Rarity</th>
                             <th>Set</th>
                         </tr>";
@@ -128,6 +226,7 @@
                     echo "<td>" . $row['mana'] . "</td>";
                     echo "<td><a href=\"/cards/" . $row['name_link'] . "\">" . $row['name'] .  "</a>";
                     echo "<td>" . $row['class'] . "</td>";
+                    echo "<td>" . $row['type'] . "</td>";
                     echo "<td>" . $row['rarity'] . "</td>";
                     echo "<td>" . $row['set_name'] . "</td>";
                     echo "</tr>";

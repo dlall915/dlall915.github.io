@@ -50,6 +50,7 @@
                             <th>Mana</th>
                             <th>Name</th>
                             <th>Class</th>
+                            <th>Type</th>
                             <th>Rarity</th>
                             <th>Set</th>
                         </tr>";
@@ -59,6 +60,7 @@
                 echo "<td>" . $row['mana'] . "</td>";
                 echo "<td><a href=\"/cards/" . $row['name_link'] . "\">" . $row['name'] .  "</a>";
                 echo "<td>" . $row['class'] . "</td>";
+                echo "<td>" . $row['type'] . "</td>";
                 echo "<td>" . $row['rarity'] . "</td>";
                 echo "<td>" . $row['set_name'] . "</td>";
                 echo "</tr>";
