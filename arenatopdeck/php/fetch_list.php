@@ -34,7 +34,7 @@ if (isset($_POST["query"])) {
         OR keyword1 LIKE '%".$token."%'
         OR keyword2 LIKE '%".$token."%'
         OR keyword3 LIKE '%".$token."%'
-        OR race LIKE '%".$token."%')
+        OR tribe LIKE '%".$token."%')
         ";
     }
     // Reset $token since it still references the last element of the array.
