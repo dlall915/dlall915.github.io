@@ -10,18 +10,16 @@ body {
     background-color: #F7F7F7;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-weight: bold;
 }
 
 h2 {
     margin-bottom: 30px;
-    font-weight: bold;
 }
 
 h3 {
     margin-bottom: 10px;
-    font-weight: bold;
 }
 
 hr.divider {
@@ -41,6 +39,10 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE"
 }
 
 td, th {

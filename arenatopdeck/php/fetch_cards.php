@@ -56,6 +56,8 @@ if (mysqli_num_rows($result) > 0) {
     $output .= '
         <div class="container">
             <div class="col-md-12 col-sm-12 col-xs-12">
+            <p style="text-align: left;"><i><strong>*Click card for more info.</strong></i></p>
+
     ';
     while ($row = mysqli_fetch_array($result)) {
         $output .= '
