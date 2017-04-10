@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div style="margin-bottom: 20px">
-                <a href="filter_list.php" class="btn btn-primary">List View</a>
+                <a href="filter_list.php" class="btn btn-primary" id="list_button">List View</a>
             </div>
         </div>
 
@@ -127,6 +127,7 @@
                     url += checkedCheckboxes[i].id + "=" + checkedCheckboxes[i].name + "&";
                 }
                 url = url.slice(0, -1);
+                url += "#list_button";
 
                 location.href = url;
                 return false;
