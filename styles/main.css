@@ -91,13 +91,23 @@ video {
 .img-circle {
     display: block;
     margin: 0 auto;
-    border-radius:50%;
+    border-radius: 50%;
     width: 50%;
     max-width: 300px;
 }
 
 .project {
-    margin: 50px 0;
+    margin: 50px auto;
+    padding: 0 5%;
+    max-width: 1000px;
+}
+
+.project h3 {
+    display: inline;
+}
+
+.project p {
+    margin: 20px 0;
 }
 
 .video {
