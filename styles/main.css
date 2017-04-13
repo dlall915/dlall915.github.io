@@ -109,6 +109,9 @@ video {
 .project p {
     margin: 20px 0;
 }
+.project a {
+    text-decoration: underline;
+}
 
 .video {
     width: 90%;
