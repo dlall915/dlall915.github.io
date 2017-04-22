@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Probabilities</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <style type="text/css">
+        th,td {
+            text-align: right;
+        }
+    </style>
+    <script src="js/google_analytics.js"></script>
+    <script src="js/probabilities_class.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- NAVIGATION START -->
+<nav class="navbar navbar-default">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="about">About</a>
+</nav>
+<!-- NAVIGATION END -->
+<h1>Probabilities</h1>
+<div class="text-box text-focus-in">
+    <p>Not much here yet, I was just curious about a few cards and figured why not. Accurate (I think, I'm
+        sure Reddit will let me know) as of Journey to Un’Goro release when discovering cards in any Standard
+        format.</p>
+</div>
+<!-- DRAWING PROBABILITIES START -->
+<div class="container">
+    <div class="col-md-12">
+        <h2>Drawing</h2>
+        <table class="scale-in-center">
+            <tr>
+                <th>Cards Left</th>
+                <th>1 Out (%)</th>
+                <th>2 Outs (%)</th>
+                <th>3 Outs (%)</th>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>6.67</td>
+                <td>13.33</td>
+                <td>20.00</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>7.14</td>
+                <td>14.29</td>
+                <td>21.43</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>7.69</td>
+                <td>15.38</td>
+                <td>23.08</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>8.33</td>
+                <td>16.67</td>
+                <td>25.00</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>9.09</td>
+                <td>18.18</td>
+                <td>27.27</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>10.00</td>
+                <td>20.00</td>
+                <td>30.00</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>11.11</td>
+                <td>22.22</td>
+                <td>33.33</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>12.50</td>
+                <td>25.00</td>
+                <td>37.50</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>14.29</td>
+                <td>28.57</td>
+                <td>42.86</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>16.67</td>
+                <td>33.33</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20.00</td>
+                <td>40.00</td>
+                <td>60.00</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>25.00</td>
+                <td>50.00</td>
+                <td>75.00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>33.33</td>
+                <td>66.67</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>100.00</td>
+                <td>100.00</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>100.00</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DRAWING PROBABILITIES END -->
+<!-- DISCOVER PROBABILITIES START -->
+<div class="container">
+    <div class="row">
+        <h2 style="margin-bottom: 5px;">Discover</h2>
+        <p><i><strong>*Click card to see possibilities.</strong></i></p>
+        <div class="text-box text-focus-in">
+            <p>For a single discover, no fancy stuff such as Finders Keepers into Finders Keepers into 2 damage.
+                Class card bonus: 400%.</p>
+        </div>
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Finders Keepers</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <a href=cards/finders_keepers>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_313.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <a href=cards/finders_keepers>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_313_premium.gif">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES START -->
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                    <div class="panel-body no-padding">
+                        <div class="row text-center">
+                            <h3>Probabilities</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table>
+                                    <tr>
+                                        <td>Total</td>
+                                        <td>15 cards</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 card</td>
+                                        <td>20.00%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2 cards</td>
+                                        <td>~37.14%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 cards</td>
+                                        <td>~51.65%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Need 2 damage for lethal?</td>
+                                        <td>~73.63%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES END -->
+    </div>
+    <!-- CARD END -->
+    <!-- CARD START -->
+    <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Servant of Kalimos (Shaman)</h2>
+
+
+                    <div class="btn-group">
+                        <p class="btn btn-primary">Class</p>
+                        <p class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></p>
+                        <ul class="dropdown-menu" id="class">
+                            <li><option value="druid">Druid</li>
+                            <li><a href="#">Hunter</a></li>
+                            <li><a href="#">Mage</a></li>
+                            <li><a href="#">Paladin</a></li>
+                            <li><a href="#">Priest</a></li>
+                            <li><a href="#">Rogue</a></li>
+                            <li><a href="#">Shaman</a></li>
+                            <li><a href="#">Warlock</a></li>
+                            <li><a href="#">Warrior</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <a href=cards/servant_of_kalimos>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_816.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <a href=cards/servant_of_kalimos>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_816_premium.gif">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES START -->
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                    <div class="panel-body no-padding">
+                        <div class="row text-center">
+                            <h3>Probabilities</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table>
+                                    <tr>
+                                        <td>Total</td>
+                                        <td>47 cards</td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>Class card</p> (*cough*
+                                            <a href="cards/kalimos_primal_lord">Kalimos, Primal Lord)</a></td>
+                                        <td>~17.56%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neutral card</td>
+                                        <td>~4.61%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 cards</td>
+                                        <td>~18.70%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="servant_of_kalimos"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES END -->
+    </div>
+    <!-- CARD END -->
+    <!-- CARD START -->
+    <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Volcanosaur</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <a href=cards/volcanosaur>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_002.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <a href=cards/volcanosaur>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_002_premium.gif">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES START -->
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                    <div class="panel-body no-padding">
+                        <div class="row text-center">
+                            <h3>Probabilities</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table>
+                                    <tr>
+                                        <td>Total</td>
+                                        <td>10 adaptations</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 adaptation (ex. Taunt)</td>
+                                        <td>19.00%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES END -->
+    </div>
+    <!-- CARD END -->
+    <!-- CARD START -->
+    <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>Free From Amber</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <a href=cards/free_from_amber>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_854.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <a href=cards/free_from_amber>
+                                <img class="img-responsive center"
+                                     src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_854_premium.gif">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES START -->
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                    <div class="panel-body no-padding">
+                        <div class="row text-center">
+                            <h3>Probabilities</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table>
+                                    <tr>
+                                        <td>Total</td>
+                                        <td>46 cards</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 card (<a href="cards/deathwing">Deathwing</a>?)</td>
+                                        <td>~6.52%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2 cards</td>
+                                        <td>~12.75%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 cards</td>
+                                        <td>~18.70%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROBABILITIES END -->
+    </div>
+    <!-- CARD END -->
+</div>
+<!-- DISCOVER PROBABILITIES END -->
+</body>
+</html>
