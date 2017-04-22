@@ -3,39 +3,42 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Servant of Kalimos</title>
+        <title>Stonehill Defender</title>
         <link rel="stylesheet" href="../css/style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="../js/google_analytics.js"></script>
+        <script src="../js/stonehill_defender.js"></script>
     </head>
     <body>
         <!-- NAVIGATION -->
         <nav class="navbar navbar-default">
             <a class="navbar-brand" href="javascript:history.back()">Back</a>
-
         </nav>
         <!-- NAVIGATION -->
-        <!-- CARD INFO -->
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <h2>Servant of Kalimos</h2>
+                            <h2>Stonehill Defender</h2>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <img class="img-responsive center"
-                                         src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_816.png">
+                                         src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_072.png"
+                                         alt="Adaptation">
                                 </div>
                                 <div class="col-md-6 col-sm-6 hidden-xs">
                                     <img class="img-responsive center"
-                                         src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_816_premium.gif">
+                                         src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_072_premium.gif"
+                                         alt="Golden Adaptation">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="row">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
                         <!-- CARD INFO -->
                         <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
                             <div class="panel-body no-padding">
@@ -51,7 +54,7 @@
                                             </tr>
                                             <tr>
                                                 <td>Type</td>
-                                                <td>Minion - Discover</td>
+                                                <td>Minion - Discover/Taunt</td>
                                             </tr>
                                             <tr>
                                                 <td>Rarity</td>
@@ -71,29 +74,25 @@
                         <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
                             <div class="panel-body no-padding">
                                 <div class="row text-center">
-                                    <h3>Probabilities (Shaman)</h3>
+                                    <h3>Probabilities</h3>
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-primary class-name">Class</a>
+                                        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Druid</a></li>
+                                            <li><a href="#">Hunter</a></li>
+                                            <li><a href="#">Mage</a></li>
+                                            <li><a href="#">Paladin</a></li>
+                                            <li><a href="#">Priest</a></li>
+                                            <li><a href="#">Rogue</a></li>
+                                            <li><a href="#">Shaman</a></li>
+                                            <li><a href="#">Warlock</a></li>
+                                            <li><a href="#">Warrior</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <table>
-                                            <tr>
-                                                <td>Total</td>
-                                                <td>47 cards</td>
-                                            </tr>
-                                            <tr>
-                                                <td><p>Class card</p> (*cough*
-                                                    <a href="kalimos_primal_lord">Kalimos, Primal Lord)</a></td>
-                                                <td>~17.56%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Neutral card</td>
-                                                <td>~4.61%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3 cards</td>
-                                                <td>~18.70%</td>
-                                            </tr>
-                                        </table>
+                                    <div class="col-md-12 probabilities" id="probabilities">
                                     </div>
                                 </div>
                             </div>
