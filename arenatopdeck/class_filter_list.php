@@ -17,7 +17,7 @@
 </nav>
 <!-- NAVIGATION -->
 <div class="container">
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
         <div style="margin-bottom: 30px;">
             <?php
             $class = $_GET['class'];
@@ -45,7 +45,7 @@
                             ORDER BY mana, name";
             $result = mysqli_query($connect, $query);
 
-            echo "<table class='scale-in-center'>
+            echo "<table class='scale-in-center panel panel-default'>
                         <tr>
                             <th>Mana</th>
                             <th>Name</th>

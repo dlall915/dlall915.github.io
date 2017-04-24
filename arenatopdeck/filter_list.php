@@ -94,7 +94,7 @@
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12" style="text-align: left; margin-top: 15px;">
                                         <input class="btn btn-primary" type="submit" value="Filter">
-                                            <a href="filter_list.php" class="btn btn-danger">Reset</a>
+                                        <a href="filter_list.php"><input class="btn btn-danger" type="button" value="Reset"></a>
                                     </div>
                                 </form>
                             </div>
@@ -215,7 +215,7 @@
                     $result = mysqli_query($connect, $query);
 
                     /* Output each card as a line of a table. */
-                    echo "<table class='sortable scale-in-center'>
+                    echo "<table class='sortable scale-in-center panel panel-default'>
                             <tr>
                                 <th>Mana</th>
                                 <th>Name</th>

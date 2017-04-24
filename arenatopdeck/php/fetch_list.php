@@ -56,7 +56,7 @@ if (mysqli_num_rows($result) > 0) {
     $output .= '
         <div class="container">
             <div class="col-md-12">
-            <table>
+            <table class="panel panel-default">
                 <tr>
                     <th>Mana</th>
                     <th>Name</th>
