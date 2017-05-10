@@ -1,0 +1,29 @@
+<!--
+
+    Errors can be checked in the developer console of Chrome. Using the uncompressed angular js file will give you
+    readable errors. Ex. mispelling the name of the controller.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 03</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid03.js"></script>
+
+    </head>
+    <!-- Invokes myController -->
+    <body ng-controller="myController">
+        <div>
+            First Name: {{ employee.firstName }}
+        </div>
+        <div>
+            Last Name: {{ employee.lastName }}
+        </div>
+        <div>
+            Gender: {{ employee.gender }}
+        </div>
+    </body>
+</html>

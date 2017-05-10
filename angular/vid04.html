@@ -1,0 +1,38 @@
+<!--
+
+    Modules can be compared to the Main() methods of other languages.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 04</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid04.js"></script>
+
+    </head>
+    <body>
+        <div ng-controller="myController">
+            <div>
+                Name: {{ country.name }}
+            </div>
+            <div>
+                Capital: {{ country.capital }}
+            </div>
+            <!-- Display the image dynamically -->
+            <div>
+                <!-- If "src" is used instead of "ng-src" 404 error will appear because the binding expression is not
+                evaluated when the DOM is parsed -->
+                <img ng-src="{{ country.flag }}"
+                     alt="{{ country.name + ' Flag' }}"
+                     style="height: 100px; width: 200px" />
+            </div>
+            <!-- Display the image statically -->
+            <div>
+                <img src="images/american-flag.png" style="height: 100px; width: 200px" />
+            </div>
+        </div>
+    </body>
+</html>

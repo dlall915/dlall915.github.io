@@ -1,0 +1,31 @@
+<!--
+
+    ng-app is the section of the DOM that Angular will manage
+    {{ }} created a binding expression
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app>
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 01</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body>
+        <!-- Array, retrieve last item -->
+        <div>
+            {{ ['David', 'Pam', 'Sara'][2] }}
+        </div>
+        <div>
+            {{ 1 == 2 }}
+        </div>
+        <!-- POJO (Plain Old Javascript Object) -->
+        <div>
+            {{ {name: 'David', age: '30'}.name }}
+        </div>
+        <div>
+            40 + 50 = {{ 40 + 50 }}
+        </div>
+    </body>
+</html>

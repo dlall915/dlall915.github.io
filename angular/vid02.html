@@ -1,0 +1,32 @@
+<!--
+
+    Modules can be compared to the Main() methods of other languages.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 02</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid02.js"></script>
+
+    </head>
+    <body>
+        <!-- Invokes myController -->
+        <div ng-controller="myController">
+            {{ message }}
+        </div>
+        <div>
+            {{ 1 == 2 }}
+        </div>
+        <!-- POJO (Plain Old Javascript Object) -->
+        <div>
+            {{ {name: 'David', age: '30'}.name }}
+        </div>
+        <div>
+            40 + 50 = {{ 40 + 50 }}
+        </div>
+    </body>
+</html>

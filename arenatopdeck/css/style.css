@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -24,16 +24,16 @@ h3 {
 }
 
 hr.divider {
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #8C8B8B;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 hr.divider:after {
 	content: '';
 	display: block;
 	margin-top: 2px;
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #8C8B8B;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 table {
