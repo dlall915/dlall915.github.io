@@ -1,0 +1,41 @@
+<!--
+
+    Handling events.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 07</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid07.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Likes</th>
+                        <th>Dislikes</th>
+                        <th>Like/Dislike</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="technology in technologies">
+                        <td>{{ technology.name }}</td>
+                        <td>{{ technology.likes }}</td>
+                        <td>{{ technology.dislikes }}</td>
+                        <td>
+                            <input type="button" value="Like" ng-click="incrementLikes(technology)">
+                            <input type="button" value="Dislike" ng-click="incrementDislikes(technology)">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

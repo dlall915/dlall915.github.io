@@ -1,0 +1,41 @@
+<!--
+
+    Search filter.
+
+    Specify a column with searchText.city, searchText.name, etc.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 11</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid11.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            Search: <input type="text" placeholder="Search employees..." ng-model="searchText" />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Salary</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees | filter:searchText">
+                        <td>{{ employee.name }}</td>
+                        <td>{{ employee.gender }}</td>
+                        <td>{{ employee.salary }}</td>
+                        <td>{{ employee.city }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

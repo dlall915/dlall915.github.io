@@ -1,0 +1,44 @@
+<!--
+
+    ng-hide and ng-show
+
+    Used to control visibility of HTML elements. ex. hiding a certain column in a table.
+
+    To mask the salary, you would implement a duplicate row of code for the salary date with ng-show. Flipping the value
+    of hideSalary would make one set of data disappear and the other appear. 55000 -> #####
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 14</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid14.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            <input type="checkbox" ng-model="hideSalary" />Hide Salary
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>City</th>
+                        <th ng-hide="hideSalary">Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees">
+                        <td>{{ employee.name }}</td>
+                        <td>{{ employee.gender }}</td>
+                        <td>{{ employee.city }}</td>
+                        <td ng-hide="hideSalary">{{ employee.salary }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!--
+
+    Two way databinding using ng-model. If you use a model name that hasn't been defined in the JS file, Angular will
+    create it.
+
+    ng-model can be used with input, select, and textarea.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 05</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid05.js"></script>
+
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+                <input type="text" ng-model="message" />
+                <input type="text" ng-model="greeting" />
+                <p>{{ message }}</p>
+                <p>{{ greeting }}</p>
+        </div>
+    </body>
+</html>

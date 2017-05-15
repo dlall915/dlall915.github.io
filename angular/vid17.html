@@ -1,0 +1,90 @@
+<!--
+
+    Accessing a database with PHP. PHP wasn't covered in the tutorial I'm following so I came up with this after looking
+    at a few other tutorials.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 17</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="cntrl" ng-init="getCards()">
+            <table>
+                <thead>
+                    <tr>
+                        <th ng-click="sortData('mana')">
+                            Mana <div ng-class="getSortClass('mana')"></div>
+                        </th>
+                        <th ng-click="sortData('name')">
+                            Name <div ng-class="getSortClass('name')"></div>
+                        </th>
+                        <th ng-click="sortData('class')">
+                            Class <div ng-class="getSortClass('class')"></div>
+                        </th>
+                        <th ng-click="sortData('type')">
+                            Type <div ng-class="getSortClass('type')"></div>
+                        </th>
+                        <th ng-click="sortData('rarity')">
+                            Rarity <div ng-class="getSortClass('rarity')"></div>
+                        </th>
+                        <th ng-click="sortData('set_name')">
+                            Set <div ng-class="getSortClass('set_name')"></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="card in data  | orderBy:sortColumn:reverseSort">
+                        <td>{{ card.mana }}</td>
+                        <td>{{ card.name }}</td>
+                        <td>{{ card.class }}</td>
+                        <td>{{ card.type }}</td>
+                        <td>{{ card.rarity }}</td>
+                        <td>{{ card.set_name }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script>
+            var app = angular.module('myApp', []);
+            app.controller('cntrl', function ($scope, $http) {
+
+                $scope.getCards = function () {
+                    $http.get("php/select.php")
+                        .then(function (response) {
+                            $scope.data = response.data;
+                        });
+                }
+
+                $scope.sortColumn = "name";
+                $scope.reverseSort = false;
+
+                $scope.sortData = function (column) {
+                    $scope.reverseSort = ($scope.sortColumn == column) ? !$scope.reverseSort : false;
+                    $scope.sortColumn = column;
+                }
+
+                /* If the column is equal to the one being sorted, return the up or down arrow class depending on the value of
+                 reverseSort. Return nothing (so no arrow shows up) otherwise. This prevents arrows from showing up on all but
+                 the column being sorted.
+                 */
+                $scope.getSortClass = function (column) {
+                    if($scope.sortColumn == column) {
+                        return $scope.reverseSort ? 'arrow-down' : 'arrow-up';
+                    }
+                    else {
+                        return '';
+                    }
+                }
+            });
+        </script>
+
+    </body>
+</html>

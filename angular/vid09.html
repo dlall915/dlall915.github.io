@@ -1,0 +1,46 @@
+<!--
+
+    Filters - Sorting.
+    {{ orderBy_expression | orderBy : expression : reverse }}
+    ex. ng-repeat="employee in employees | orderBy:'salary':false"
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 09</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid09.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            Order by: <select ng-model="sortColumn">
+                            <option value="name">Name</option>
+                            <option value="gender">Gender</option>
+                            <option value="dateOfBirth">Date of Birth</option>
+                            <option value="salary">Salary</option>
+                        </select>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees | orderBy:sortColumn">
+                        <td>{{ employee.name }}</td>
+                        <td>{{ employee.dateOfBirth | date:"MM/dd/yyyy" }}</td>
+                        <td>{{ employee.gender }}</td>
+                        <td>{{ employee.salary }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

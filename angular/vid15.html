@@ -1,0 +1,34 @@
+<!--
+
+    ng-init
+
+    An variable can be created outside of the JS file using this, generally you would only use it with ng-repeat.
+    In this case the index of the parent is saved in a new variable so it can be printed out while continuing to loop
+    through the elements.
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 15</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid15.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            <ul>
+                <li ng-repeat="country in countries" ng-init="parentIndex = $index">
+                    {{ country.name }}
+                    <ul>
+                        <li ng-repeat="city in country.cities">
+                            {{ city.name }} - Parent Index = {{ parentIndex }}, Index = {{ $index }}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

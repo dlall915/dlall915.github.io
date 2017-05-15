@@ -1,0 +1,39 @@
+<!--
+
+    Custom filters.
+
+    Convert 1, 2, 3 to their string representations, in this case that's "Male", "Female", "Not Disclosed".
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 13</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid13.js"></script>
+        <script src="js/vid13_filters.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees">
+                        <td>{{ employee.name }}</td>
+                        <td>{{ employee.gender | gender }}</td>
+                        <td>{{ employee.salary }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

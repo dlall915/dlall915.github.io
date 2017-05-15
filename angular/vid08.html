@@ -1,0 +1,43 @@
+<!--
+
+    Filters.
+    {{ expression | filterName:parameter }}
+    lowercase, uppercase, number, currency, date, limitTo
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 08</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid08.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            Rows to display <input type="number" step="1" min="0" max="5" ng-model="rowLimit" />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>Salary (number)</th>
+                        <th>Salary (currency)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees | limitTo:rowLimit">
+                        <td>{{ employee.name | uppercase }}</td>
+                        <td>{{ employee.dateOfBirth | date:"MM/dd/yyyy" }}</td>
+                        <td>{{ employee.gender | lowercase }}</td>
+                        <td>{{ employee.salary | number:2 }}</td>
+                        <td>{{ employee.salary | currency:"$":1 }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
