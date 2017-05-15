@@ -1,0 +1,49 @@
+<!--
+
+    Accessing a database with PHP. PHP wasn't covered in the tutorial I'm following so I came up with this after looking
+    at a few other tutorials.
+
+    REVISIT THIS AFTER PHP
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 22</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body ng-app="myModule" ng-controller="myController" ng-init="getCountries()">
+        <span ng-repeat="country in countries">
+            <button ng-click="scrollTo(country.name)">{{ country.name }}</button>
+        </span>
+        <br /><br />
+        <div>
+            <fieldset ng-repeat="country in countries" id="{{ country.name }}">
+                <legend> {{ country.name }}</legend>
+            </fieldset>
+        </div>
+
+        <script>
+            var app = angular.module('myModule', [])
+                .controller('myController', function ($scope, $http, $location, $anchorScroll) {
+
+                $scope.getCountries = function () {
+                    $http.get("php/countriesDB.php")
+                        .then(function (response) {
+                            $scope.countries = response.data;
+                        });
+                };
+
+                $scope.scrollTo = function (scrollLocation) {
+                    /* Appends what is passed to the URL */
+                    $location.hash(scrollLocation);
+                    $anchorScroll();
+                }
+            });
+        </script>
+
+    </body>
+</html>

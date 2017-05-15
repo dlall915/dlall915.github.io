@@ -1,0 +1,96 @@
+<!--
+
+    $anchorscroll service
+
+    Used to jump to a specified element on the page.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 21</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid21.js"></script>
+    </head>
+    <body ng-controller="myController">
+        <button id="top" ng-click="scrollTo('bottom')">Go to bottom of the page.</button>
+        <div>
+            <p>
+            Today at their annual GPU Technology Conference keynote, NVIDIA's CEO Jen-Hsun Huang announced the company's first Volta GPU and Volta products. Taking aim at the very high end of the compute market with their first products, NVIDIA has laid out a very aggressive technology delivery schedule in order to bring about another major leap in GPU deep learning performance.
+            </p>
+            <p>
+            As a quick history lesson, NVIDIA first unveiled the Volta architecture name all the way back in 2013. What eventually happened with their architectures wasn’t what was originally announced – Maxwell and Volta became Maxwell, Pascal, and Volta – but Volta is the last GPU architecture on NVIDIA’s current public roadmap. Until now, all we’ve known about Volta is that it existed; NVIDIA has opted to focus on what’s directly in front of them (e.g. Pascal), one generation at a time.
+            </p>
+            <p>
+            So let’s talk Volta. For their first Volta products, NVIDIA is following a very similar path as they did with Pascal last year. Which is to say that they are kicking off their public campaign and product stack with a focus on business, HPC, and deep learning, rather than consumer GPUs. Volta is a full GPU architecture for both compute and graphics, but today’s announcements are all about the former. So the features unveiled today and as part of the first Volta GPU are all compute-centric.
+            </p>
+            <p>
+            NVIDIA’s first Volta GPU then is the aptly named GV100. The successor to the Pascal GP100, this is NVIDIA’s flagship GPU for compute, designed to drive the next generation of Tesla products.
+            </p>
+            <p>
+            Before we kick things off, one thing to make clear here - and this is something that I'll get into much greater detail when NVIDIA releases enough material for a proper deep dive - is that Volta is a brand new architecture for NVIDIA in almost every sense of the word. While the internal organization is the same much of the time, it's not Pascal at 12nm with new cores (Tensor Cores). Rather it's a significantly different architecture in terms of thread execution, thread scheduling, core layout, memory controllers, ISA, and more. And these are just the things NVIDIA is willing to talk about, never mind the ample secrets they still keep. So while I can only scratch the surface for today's reveal and will be focusing on basic throughput, Volta has a great deal going on under the hood to get to in the coming weeks.
+            </p>
+            <p>
+            But starting with the raw specficiations, the GV100 is something I can honestly say is a audacious GPU, an adjective I’ve never had a need to attach to any other GPU in the last 10 years. In terms of die size and transistor count, NVIDIA is genuinely building the biggest GPU they can get away with: 21.1 billion transistors, at a massive 815mm2, built on TSMC’s still green 12nm “FFN” process (the ‘n’ stands for NVIDIA; it’s a customized higher perf version of 12nm for NVIDIA).
+            </p>
+            <p>
+            To put this in perspective, NVIDIA’s previous record holder for GPU size was GP100 at 610mm2. So GV100, besides being on a newer generation process, is a full 33% larger. In fact NVIDIA has gone right to the reticle size of TSMC’s process; GV100 is as big a GPU as the fab can build. Now NVIDIA is not a stranger with reticle sizes, as GM200 happened to do the same thing with TSMC’s 28nm process, but at only 601mm2, GV100 is much larger still.
+            </p>
+            <p>
+            Now why the focus on die size first and foremost? At a high level, die size correlates well with performance. But more significantly, this is a very visible flag about how NVIDIA is pushing the envelope. The company is not discussing chip yields at this time, but such a large chip is going to yield very poorly, especially on the new 12nm FFN process. NVIDIA is going to be sacrificing a lot of silicon for a relatively small number of good chips, just so that they can sell them to eager customers who are going to pay better than $15K/chip. This is how badly NVIDIA’s customers want more powerful GPUs, and how hard NVIDIA is going to push the limits of modern fab technology to deliver it.
+            </p>
+            <p>
+                Today at their annual GPU Technology Conference keynote, NVIDIA's CEO Jen-Hsun Huang announced the company's first Volta GPU and Volta products. Taking aim at the very high end of the compute market with their first products, NVIDIA has laid out a very aggressive technology delivery schedule in order to bring about another major leap in GPU deep learning performance.
+            </p>
+            <p>
+                As a quick history lesson, NVIDIA first unveiled the Volta architecture name all the way back in 2013. What eventually happened with their architectures wasn’t what was originally announced – Maxwell and Volta became Maxwell, Pascal, and Volta – but Volta is the last GPU architecture on NVIDIA’s current public roadmap. Until now, all we’ve known about Volta is that it existed; NVIDIA has opted to focus on what’s directly in front of them (e.g. Pascal), one generation at a time.
+            </p>
+            <p>
+                So let’s talk Volta. For their first Volta products, NVIDIA is following a very similar path as they did with Pascal last year. Which is to say that they are kicking off their public campaign and product stack with a focus on business, HPC, and deep learning, rather than consumer GPUs. Volta is a full GPU architecture for both compute and graphics, but today’s announcements are all about the former. So the features unveiled today and as part of the first Volta GPU are all compute-centric.
+            </p>
+            <p>
+                NVIDIA’s first Volta GPU then is the aptly named GV100. The successor to the Pascal GP100, this is NVIDIA’s flagship GPU for compute, designed to drive the next generation of Tesla products.
+            </p>
+            <p>
+                Before we kick things off, one thing to make clear here - and this is something that I'll get into much greater detail when NVIDIA releases enough material for a proper deep dive - is that Volta is a brand new architecture for NVIDIA in almost every sense of the word. While the internal organization is the same much of the time, it's not Pascal at 12nm with new cores (Tensor Cores). Rather it's a significantly different architecture in terms of thread execution, thread scheduling, core layout, memory controllers, ISA, and more. And these are just the things NVIDIA is willing to talk about, never mind the ample secrets they still keep. So while I can only scratch the surface for today's reveal and will be focusing on basic throughput, Volta has a great deal going on under the hood to get to in the coming weeks.
+            </p>
+            <p>
+                But starting with the raw specficiations, the GV100 is something I can honestly say is a audacious GPU, an adjective I’ve never had a need to attach to any other GPU in the last 10 years. In terms of die size and transistor count, NVIDIA is genuinely building the biggest GPU they can get away with: 21.1 billion transistors, at a massive 815mm2, built on TSMC’s still green 12nm “FFN” process (the ‘n’ stands for NVIDIA; it’s a customized higher perf version of 12nm for NVIDIA).
+            </p>
+            <p>
+                To put this in perspective, NVIDIA’s previous record holder for GPU size was GP100 at 610mm2. So GV100, besides being on a newer generation process, is a full 33% larger. In fact NVIDIA has gone right to the reticle size of TSMC’s process; GV100 is as big a GPU as the fab can build. Now NVIDIA is not a stranger with reticle sizes, as GM200 happened to do the same thing with TSMC’s 28nm process, but at only 601mm2, GV100 is much larger still.
+            </p>
+            <p>
+                Now why the focus on die size first and foremost? At a high level, die size correlates well with performance. But more significantly, this is a very visible flag about how NVIDIA is pushing the envelope. The company is not discussing chip yields at this time, but such a large chip is going to yield very poorly, especially on the new 12nm FFN process. NVIDIA is going to be sacrificing a lot of silicon for a relatively small number of good chips, just so that they can sell them to eager customers who are going to pay better than $15K/chip. This is how badly NVIDIA’s customers want more powerful GPUs, and how hard NVIDIA is going to push the limits of modern fab technology to deliver it.
+            </p>
+            <p>
+                Today at their annual GPU Technology Conference keynote, NVIDIA's CEO Jen-Hsun Huang announced the company's first Volta GPU and Volta products. Taking aim at the very high end of the compute market with their first products, NVIDIA has laid out a very aggressive technology delivery schedule in order to bring about another major leap in GPU deep learning performance.
+            </p>
+            <p>
+                As a quick history lesson, NVIDIA first unveiled the Volta architecture name all the way back in 2013. What eventually happened with their architectures wasn’t what was originally announced – Maxwell and Volta became Maxwell, Pascal, and Volta – but Volta is the last GPU architecture on NVIDIA’s current public roadmap. Until now, all we’ve known about Volta is that it existed; NVIDIA has opted to focus on what’s directly in front of them (e.g. Pascal), one generation at a time.
+            </p>
+            <p>
+                So let’s talk Volta. For their first Volta products, NVIDIA is following a very similar path as they did with Pascal last year. Which is to say that they are kicking off their public campaign and product stack with a focus on business, HPC, and deep learning, rather than consumer GPUs. Volta is a full GPU architecture for both compute and graphics, but today’s announcements are all about the former. So the features unveiled today and as part of the first Volta GPU are all compute-centric.
+            </p>
+            <p>
+                NVIDIA’s first Volta GPU then is the aptly named GV100. The successor to the Pascal GP100, this is NVIDIA’s flagship GPU for compute, designed to drive the next generation of Tesla products.
+            </p>
+            <p>
+                Before we kick things off, one thing to make clear here - and this is something that I'll get into much greater detail when NVIDIA releases enough material for a proper deep dive - is that Volta is a brand new architecture for NVIDIA in almost every sense of the word. While the internal organization is the same much of the time, it's not Pascal at 12nm with new cores (Tensor Cores). Rather it's a significantly different architecture in terms of thread execution, thread scheduling, core layout, memory controllers, ISA, and more. And these are just the things NVIDIA is willing to talk about, never mind the ample secrets they still keep. So while I can only scratch the surface for today's reveal and will be focusing on basic throughput, Volta has a great deal going on under the hood to get to in the coming weeks.
+            </p>
+            <p>
+                But starting with the raw specficiations, the GV100 is something I can honestly say is a audacious GPU, an adjective I’ve never had a need to attach to any other GPU in the last 10 years. In terms of die size and transistor count, NVIDIA is genuinely building the biggest GPU they can get away with: 21.1 billion transistors, at a massive 815mm2, built on TSMC’s still green 12nm “FFN” process (the ‘n’ stands for NVIDIA; it’s a customized higher perf version of 12nm for NVIDIA).
+            </p>
+            <p>
+                To put this in perspective, NVIDIA’s previous record holder for GPU size was GP100 at 610mm2. So GV100, besides being on a newer generation process, is a full 33% larger. In fact NVIDIA has gone right to the reticle size of TSMC’s process; GV100 is as big a GPU as the fab can build. Now NVIDIA is not a stranger with reticle sizes, as GM200 happened to do the same thing with TSMC’s 28nm process, but at only 601mm2, GV100 is much larger still.
+            </p>
+            <p>
+                Now why the focus on die size first and foremost? At a high level, die size correlates well with performance. But more significantly, this is a very visible flag about how NVIDIA is pushing the envelope. The company is not discussing chip yields at this time, but such a large chip is going to yield very poorly, especially on the new 12nm FFN process. NVIDIA is going to be sacrificing a lot of silicon for a relatively small number of good chips, just so that they can sell them to eager customers who are going to pay better than $15K/chip. This is how badly NVIDIA’s customers want more powerful GPUs, and how hard NVIDIA is going to push the limits of modern fab technology to deliver it.
+            </p>
+        </div>
+        <button id="bottom" ng-click="scrollTo('top')">Go to top of the page.</button>
+    </body>
+</html>

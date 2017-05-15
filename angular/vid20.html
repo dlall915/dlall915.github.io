@@ -1,0 +1,39 @@
+<!--
+
+    Custom services.
+
+    Creates spaces before capitalized letter. ex "HelloWorld" -> "Hello World".
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 20</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid20.js"></script>
+        <script src="js/vid20_service.js"></script>
+    </head>
+    <body ng-app="myModule">
+        <div ng-controller="myController">
+            <table>
+                <tr>
+                    <td>Your String</td>
+                    <td><input type="text" ng-model="input" /></td>
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td><input type="text" ng-model="output" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" value="Process String" ng-click="transformString(input)" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

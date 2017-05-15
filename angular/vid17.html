@@ -2,6 +2,7 @@
 
     Accessing a database with PHP. PHP wasn't covered in the tutorial I'm following so I came up with this after looking
     at a few other tutorials.
+
 -->
 
 <!DOCTYPE html>
@@ -61,7 +62,7 @@
                         .then(function (response) {
                             $scope.data = response.data;
                         });
-                }
+                };
 
                 $scope.sortColumn = "name";
                 $scope.reverseSort = false;
@@ -69,7 +70,7 @@
                 $scope.sortData = function (column) {
                     $scope.reverseSort = ($scope.sortColumn == column) ? !$scope.reverseSort : false;
                     $scope.sortColumn = column;
-                }
+                };
 
                 /* If the column is equal to the one being sorted, return the up or down arrow class depending on the value of
                  reverseSort. Return nothing (so no arrow shows up) otherwise. This prevents arrows from showing up on all but
@@ -82,7 +83,7 @@
                     else {
                         return '';
                     }
-                }
+                };
             });
         </script>
 
