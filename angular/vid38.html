@@ -1,0 +1,33 @@
+<!--
+
+    Cancel route change.
+
+    Ex. The user is filling a form and accidentally clicks a link, you can warn them with a pop up window and allow
+    them to cancel the request.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 38</title>
+        <link rel="stylesheet" href="styles/vid24.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid38.js"></script>
+    </head>
+    <body>
+    </body>
+</html>
+
+
+<!--
+
+.controller("studentController", function ($http, $route, $scope) {
+    $scope.on("$routeChangeStart", function(event, next, current) {
+        if(confirm("Are you sure you want to navigate away from this page to " + next.$$route.originalPath)) {
+            event.preventDefault();
+        }
+    });
+
+-->

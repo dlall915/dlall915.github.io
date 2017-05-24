@@ -1,0 +1,35 @@
+<!--
+
+    Route change events. When a route navigation occurs, the following events are triggered:
+
+    $locationChangeStart
+    $routeChangeStart
+    $locationChangeSuccess
+    $routeChangeSuccess
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 39</title>
+        <link rel="stylesheet" href="styles/vid24.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid39.js"></script>
+    </head>
+    <body>
+    </body>
+</html>
+
+
+<!--
+
+.controller("studentController", function ($http, $route, $scope) {
+    $scope.on("$routeChangeStart", function(event, next, current) {
+        if(confirm("Are you sure you want to navigate away from this page to " + next.$$route.originalPath)) {
+            event.preventDefault();
+        }
+    });
+
+-->

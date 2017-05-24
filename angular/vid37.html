@@ -1,0 +1,39 @@
+<!--
+
+    $scope vs $rootScope
+
+    rootScopeColor is displayed in both controllers even though it was only defined in redColorController.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 37</title>
+        <link rel="stylesheet" href="styles/vid24.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid37.js"></script>
+    </head>
+    <body>
+        Controller is redColorController.<br />
+        <div ng-controller="redColorController">
+            Root Scope Color: {{ rootScopeColor }}<br />
+            Red Scope Color: {{ redColor }}<br />
+            Green Scope Color:
+                <span style="color:red" ng-show="greenColor == undefined">
+                    greenColor is undefined.
+                </span>
+        </div>
+        <br />
+        Controller is greenColorController.<br />
+        <div ng-controller="greenColorController">
+            Root Scope Color: {{ rootScopeColor }}<br />
+            Green Scope Color: {{ greenColor }}<br />
+            Red Scope Color:
+            <span style="color:red" ng-show="redColor == undefined">
+                    redColor is undefined.
+                </span>
+        </div>
+    </body>
+</html>

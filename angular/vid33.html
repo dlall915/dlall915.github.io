@@ -1,0 +1,57 @@
+<!--
+
+    AngularJS controller as syntax.
+
+    An example with nested scopes.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 33</title>
+        <link rel="stylesheet" href="styles/vid24.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/vid33.js"></script>
+    </head>
+    <body>
+        <div ng-controller="countryController as countryCtrl">
+            {{ countryCtrl.name }}
+            <div ng-controller="stateController as stateCtrl">
+                {{ countryCtrl.name }} - {{ stateCtrl.name }}
+                <div ng-controller="cityController as cityCtrl">
+                    {{ countryCtrl.name }} - {{ stateCtrl.name }} - {{ cityCtrl.name }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
+
+    Using $scope.
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Video 33</title>
+    <link rel="stylesheet" href="styles/vid24.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/vid33.js"></script>
+</head>
+<body>
+<div ng-controller="countryController">
+    {{ name }}
+    <div ng-controller="stateController">
+        {{ $parent.name }} - {{ name }}
+        <div ng-controller="cityController">
+            {{ $parent.$parent.name }} - {{ $parent.name }} - {{ name }}
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+-->

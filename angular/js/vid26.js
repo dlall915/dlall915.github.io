@@ -19,6 +19,9 @@ var myApp = angular
                 templateUrl: "templates/students.html",
                 controller: "studentsController"
             })
+            .otherwise( {
+                redirectTo: "/home"
+            })
     })
     .controller("homeController", function ($scope) {
         $scope.message = "Home page";
@@ -30,5 +33,9 @@ var myApp = angular
         $http.get("php/studentsDB.php")
             .then(function (response) {
                 $scope.students = response.data;
-            })
+            });
+        $http.post("php/studentsDB.php", "1")
+            .then(function (response) {
+                $scope.testStudent = response.data;
+            });
     });

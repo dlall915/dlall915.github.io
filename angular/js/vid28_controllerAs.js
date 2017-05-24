@@ -6,47 +6,54 @@ var myApp = angular
     .module("myModule", ["ngRoute"])
     /* Injects the html templates into the main page according to the URL */
     .config(function ($routeProvider, $locationProvider) {
+        $routeProvider.caseInsensitiveMatch = true;
         $routeProvider
             .when("/home", {
                 templateUrl: "templates/home.html",
-                controller: "homeController"
+                controller: "homeController",
+                controllerAs: "homeCtrl"
             })
             .when("/courses", {
                 templateUrl: "templates/courses.html",
-                controller: "coursesController"
+                controller: "coursesController",
+                controllerAs: "coursesCtrl"
             })
             .when("/students", {
                 templateUrl: "templates/students.html",
-                controller: "studentsController"
+                controller: "studentsController",
+                controllerAs: "studentsCtrl"
             })
             .when("/student/:id", {
                 templateUrl: "templates/studentsDetails.html",
-                controller: "studentsDetailsController"
+                controller: "studentsDetailsController",
+                controllerAs: "sudentsDetailsCtrl"
             })
             .otherwise( {
                 redirectTo: "/home"
             })
         $locationProvider.html5Mode(true);
     })
-    .controller("homeController", function ($scope) {
-        $scope.message = "Home page";
+    .controller("homeController", function () {
+        this.message = "Home page";
     })
-    .controller("coursesController", function ($scope) {
-        $scope.courses = ["C#", "VB.NET", "SQL Server", "Java", "AngularJS"];
+    .controller("coursesController", function () {
+        this.courses = ["C#", "VB.NET", "SQL Server", "Java", "AngularJS"];
     })
-    .controller("studentsController", function ($scope, $http) {
+    .controller("studentsController", function ($http) {
+        var viewModel = this;
         $http.get("php/studentsDB.php")
             .then(function (response) {
-                $scope.students = response.data;
+                viewModel.students = response.data;
             })
     })
-    .controller("studentsDetailsController", function ($scope, $http, $routeParams) {
+    .controller("studentsDetailsController", function ($http, $routeParams) {
+        var viewModel = this;
         $http({
             url:"php/studentsDB.php",
             params:{id:$routeParams.id},
             method: "get"
 
         }).then(function(response){
-            $scope.student = response.data;
+            viewModel.student = response.data;
         })
     })
