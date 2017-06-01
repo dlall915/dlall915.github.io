@@ -1,0 +1,41 @@
+<!--
+
+    Route resolve.
+
+    Ex. You don't want a template to load until all the promises are resolved. An example of this is loading a list from
+    a database.
+
+
+    Full example below.
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Video 41</title>
+        <link rel="stylesheet" href="styles/vid24.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body>
+    </body>
+</html>
+
+
+<!--
+
+            .when("/students", {
+                templateUrl: "templates/students.html",
+                controller: "studentsController",
+                controllerAs: "studentsCtrl",
+                resolve: {
+                    studentsList: function ($http) {
+                        return $http.get("php/studentsDB.php")
+                            .then(function (response) {
+                                return response.data;
+                            })
+                    }
+                }
+            })
+
+-->

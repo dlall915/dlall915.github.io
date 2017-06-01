@@ -21,7 +21,15 @@ var myApp = angular
             .when("/students", {
                 templateUrl: "templates/students.html",
                 controller: "studentsController",
-                controllerAs: "studentsCtrl"
+                controllerAs: "studentsCtrl",
+                resolve: {
+                    studentsList: function ($http) {
+                        return $http.get("php/studentsDB.php")
+                            .then(function (response) {
+                                return response.data;
+                            })
+                    }
+                }
             })
             .when("/student/:id", {
                 templateUrl: "templates/studentsDetails.html",
@@ -39,12 +47,10 @@ var myApp = angular
     .controller("coursesController", function () {
         this.courses = ["C#", "VB.NET", "SQL Server", "Java", "AngularJS"];
     })
-    .controller("studentsController", function ($http) {
+    .controller("studentsController", function (studentsList, $http) {
         var viewModel = this;
-        $http.get("php/studentsDB.php")
-            .then(function (response) {
-                viewModel.students = response.data;
-            })
+
+        viewModel.students = studentsList;
     })
     .controller("studentsDetailsController", function ($http, $routeParams) {
         var viewModel = this;
