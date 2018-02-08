@@ -87,6 +87,7 @@ ol {
     Media Queries
 \*------------------------------------*/
 
+/*
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 	.nav-mobile {
 		display: block;
@@ -107,7 +108,7 @@ ol {
 	}
 
 	.nav-item a {
-		background: linear-gradient(to left, #85C1E9, #306BAC);     /* Mobile nav dropdown color */
+		background: linear-gradient(to left, #85C1E9, #306BAC);
 		padding: 10px;
 	}
 
@@ -125,7 +126,8 @@ ol {
 
 	.nav-mobile-open {
 		border-radius: 5px 5px 0 0;
-		-webkit-border-radius: px 5px 0 0;
+		-webkit-border-radius: 5px 5px 0 0;
 		-moz-border-radius: 5px 5px 0 0;
 	}
 }
+*/
